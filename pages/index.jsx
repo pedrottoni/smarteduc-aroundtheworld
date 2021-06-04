@@ -1,10 +1,17 @@
 import Head from "next/head";
-import Card from "../src/components/cards/card";
+import Link from "next/link";
+import Card from "../components/sets/Card";
+import BookPage from "../components/layout/BookPage";
 
 export default function Home() {
-  const smartBlue = "hsl(190deg 100% 50%)";
+  const smartBlue = "hsl(190deg 100% 40%)";
+  const smartBlueDark = "hsl(190deg 100% 22%)";
   const smartPurple = "hsl(319deg 55% 35%)";
+  const smartPurpleDark = "hsl(310deg 97% 15%)";
   const smartYellow = "hsl(39deg 97% 54%)";
+  const smartYellowDark = "hsl(24deg 80% 40%)";
+  const smartBlack = "hsl(0deg 0% 10%)";
+  const smartWhite = "hsl(0deg 0% 100%)";
 
   return (
     <>
@@ -14,12 +21,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-        <Card color={smartBlue} item="Bolinho" subtitleBottom="Bolinho"/>
-        <Card color={smartPurple} subtitleTop="Bolinho" />
-        <Card color={smartYellow} subtitleTop="Bolinho" subtitleBottom="Bolinho"/>
+      <BookPage title="Grammar" subtitle="Wh questions">
+        <Card color={smartBlue} shadow={smartBlueDark} textColor={smartWhite} item="Bolinho" subtitleBottom="Bolinho" />
+        <Card color={smartPurple} shadow={smartPurpleDark} textColor={smartWhite} subtitleTop="Bolinho" />
+        <Card color={smartYellow} shadow={smartYellowDark} subtitleTop="Bolinho" subtitleBottom="Bolinho" />
+        <Card color={smartYellow} shadow={smartYellowDark} subtitleTop="Bolinho" subtitleBottom="Bolinho" image="muffin.svg" fundo={true} />
         <p>fora</p>
-      </main>
+      </BookPage>
 
       <style jsx>{`
         main {
