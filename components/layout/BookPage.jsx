@@ -2,30 +2,44 @@ export default function BookPage(props) {
   return (
     <main>
       <header>
-        <h1>{props.title}</h1>
-        <h2>{props.subtitle}</h2>
+        <div className="pagetitle">
+          <h3>{props.title}</h3>
+          <h4>{props.subtitle}</h4>
+        </div>
       </header>
       <section>{props.children}</section>
       <footer>
-        <button>Botão</button>
+        <p>Footer</p>
       </footer>
 
       <style jsx>{`
         main {
-          display: grid;
-          height: 100vh;
+          display: flex;
+          flex-direction: column;
           width: 100vw;
-          overflow-x: scroll;
+          overflow-y: scroll;
         }
 
         header {
-          height: 20vh;
-          background: #8a286b;
+          height: 25vh;
+          background: repeating-linear-gradient(45deg, hsl(0deg 0% 100% / 0%), hsl(0deg 0% 100% / 0%) 10px, hsl(0deg 0% 100% / 3%) 10px, hsl(0deg 0% 100% / 3%) 20px), hsl(319deg 55% 35%);
           display: flex;
           flex-direction: column;
           justify-content: center;
-          padding-left: 5rem;
+          padding: 5rem;
           margin-bottom: 2rem;
+        }
+
+        section, .pagetitle {
+          width: 960px;
+          place-self: center;
+        }
+
+        h3 {
+          color: hsl(40deg 97% 58%);
+        }
+        h4 {
+          color: hsl(0deg 0% 100%);
         }
       `}</style>
       <style jsx global>{`
@@ -34,6 +48,13 @@ export default function BookPage(props) {
           height: 100vh;
           width: 100vw;
           overflow: hidden;
+        }
+
+        section .content {
+          display: flex;
+          gap: 2rem;
+          justify-content: center;
+          margin-bottom: 2rem;
         }
       `}</style>
     </main>
