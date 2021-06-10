@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function NavHeader(props) {
   return (
     <header>
-      <Image src="/images/logo.svg" alt="Picture of the author" width="100" height="300" />
+      <Image src="/images/logo.svg" alt="Picture of the author" width="200" height="60" />
       <nav>
         <Link href="/">Link</Link>
       </nav>

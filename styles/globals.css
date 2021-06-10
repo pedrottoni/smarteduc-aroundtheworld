@@ -29,15 +29,15 @@ h1 {
 }
 
 h3 {
-  font-size: 6rem;
+  font-size: max(50px, 3vh + 3vw);
 }
 
 h4 {
-  font-size: 3rem;
+  font-size: max(25px, 1.5vh + 1.5vw);
 }
 
 h5 {
-  font-size: 2rem;
+  font-size: max(16px, 1vh + 1.5vw);
 }
 
 * {

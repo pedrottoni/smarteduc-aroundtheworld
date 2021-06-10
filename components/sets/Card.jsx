@@ -14,7 +14,7 @@ export default function Card(props) {
       <div className="cardFundo">
         <div className="card">
           {props.subtitleTop ? <h5>{props.subtitleTop}</h5> : null}
-          {props.image ? <Image src={"/images/" + props.image} alt="Picture of the author" layout="responsive" width="100" height="100" /> : null}
+          {props.image ? <Image src={"/images/" + props.image + ".svg"} alt="Picture of the author" layout="responsive" width="100" height="100" /> : null}
           {props.subtitleBottom ? <h5>{props.subtitleBottom}</h5> : null}
           {props.children}
         </div>
@@ -22,9 +22,9 @@ export default function Card(props) {
 
       <style jsx>{`
         .card {
-          padding: 2rem;
+          padding: max(0.8rem, 2vw);
           background: ${props.fundo ? "hsl(0deg 0% 97%)" : "transparent"};
-          border-radius: 2rem;
+          border-radius: clamp(1rem, 2vw, 3rem);
           /*width: clamp(10rem, 20rem, 1000px);*/
           height: fit-content;
           box-shadow: ${props.fundo ? "inset -4px -5px 7px 3px #e3e3e3, inset 6px 6px 7px 3px #fff" : "none"};
@@ -34,11 +34,11 @@ export default function Card(props) {
         }
         .cardFundo {
           background: ${props.color};
-          padding: 1rem;
+          padding: clamp(0.3rem,0.7vh + 0.5vw,1rem);
           width: 100%;
           height: fit-content;
           transform: rotate(1deg);
-          border-radius: 2rem;
+          border-radius: clamp(1rem, 2vw, 3rem);
           box-shadow: 7px 7px ${props.shadow};
         }
         .card :global(p) {

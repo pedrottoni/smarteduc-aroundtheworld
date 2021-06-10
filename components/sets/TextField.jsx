@@ -16,8 +16,13 @@ export default function TextField(props) {
 
         .textfield :global(.card) {
           display: grid;
-          grid-template-columns: 1fr 1fr;
+          grid-template-columns: repeat(auto-fill, minmax(47%, 2fr));
           gap: 2rem;
+          transform: rotate(-0.5deg);
+        }
+
+        .textfield :global(.cardFundo) {
+          transform: rotate(0.5deg);
         }
       `}</style>
       <style jsx global>{`
@@ -27,7 +32,7 @@ export default function TextField(props) {
           font-size: 1rem;
           font-family: "Asap Condensed";
           border-bottom: 1px solid #bbb;
-          padding: .5rem;
+          padding: 0.5rem;
         }
       `}</style>
     </div>

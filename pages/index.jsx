@@ -1,21 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
-import Card from "../components/sets/Card";
-import TextField from "../components/sets/TextField";
-import BookPage from "../components/layout/BookPage";
 
 export default function Home() {
-  const smartBlue = "hsl(190deg 100% 40%)";
-  const smartBlueDark = "hsl(190deg 100% 22%)";
-  const smartPurple = "hsl(319deg 55% 35%)";
-  const smartPurpleDark = "hsl(310deg 97% 15%)";
-  const smartYellow = "hsl(39deg 97% 54%)";
-  const smartYellowDark = "hsl(24deg 80% 40%)";
-  const smartRed = "#F1535C";
-  const smartRedDark = "#9F242D";
-  const smartBlack = "hsl(0deg 0% 10%)";
-  const smartWhite = "hsl(0deg 0% 100%)";
-
   return (
     <>
       <Head>
@@ -24,31 +10,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <BookPage title="Grammar" subtitle="Wh questions">
-        <div className="content">
-          <Card color={smartYellow} shadow={smartYellowDark} subtitleTop="Bolinho" image="muffin.svg" fundo={true} />
-          <Card color={smartBlue} shadow={smartBlueDark} subtitleTop="Bolinho" image="muffin.svg" fundo={true} />
-          <Card color={smartRed} shadow={smartRedDark} subtitleTop="Bolinho" image="muffin.svg" fundo={true} />
-        </div>
-        <TextField color={smartYellow} shadow={smartYellowDark} fundo={true}>
-          <input type="text" disabled value="WHO IS THAT WOMAN?" />
-          <input type="text" placeholder="Who is that..." maxlength="50" />
-          <input type="text" value="WHO IS THAT WOMAN?" />
-          <input type="text" value="WHO IS THAT WOMAN?" />
-        </TextField>
-        <TextField color={smartBlue} shadow={smartBlueDark} fundo={true}>
-          <input type="text" disabled value="WHO IS THAT WOMAN?" />
-          <input type="text" placeholder="Who is that..." maxlength="50" />
-          <input type="text" value="WHO IS THAT WOMAN?" />
-          <input type="text" value="WHO IS THAT WOMAN?" />
-        </TextField>
-        <TextField color={smartRed} shadow={smartRedDark} fundo={true}>
-          <input type="text" disabled value="WHO IS THAT WOMAN?" />
-          <input type="text" placeholder="Who is that..." maxlength="50" />
-          <input type="text" value="WHO IS THAT WOMAN?" />
-          <input type="text" value="WHO IS THAT WOMAN?" />
-        </TextField>
-      </BookPage>
+      <Link href="/bookone">Book One</Link>
 
       <style jsx>{`
         main {
