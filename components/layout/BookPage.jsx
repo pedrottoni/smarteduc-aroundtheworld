@@ -15,7 +15,8 @@ export default function BookPage(props) {
       `}</style>
       <style jsx global>{`
         #__next {
-          display: grid;
+          display: flex;
+          flex-direction: column;
           height: 100vh;
           width: 100vw;
           overflow: hidden;

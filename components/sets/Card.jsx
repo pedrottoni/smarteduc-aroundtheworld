@@ -38,7 +38,7 @@ export default function Card(props) {
           height: fit-content;
           transform: rotate(1deg);
           border-radius: 3rem;
-          box-shadow: 1rem 1rem ${props.shadow};
+          box-shadow: .6rem .6rem ${props.shadow};
         }
       `}</style>
     </>

@@ -16,10 +16,10 @@ export default function TextField(props) {
 
         .textfield :global(.card) {
           display: grid;
-          grid-template-columns: repeat(auto-fill, minmax(36rem, 2fr));
+          grid-template-columns: repeat(auto-fill, minmax(35rem, 2fr));
           gap: 2rem;
           transform: rotate(-0.5deg);
-          padding: 2rem;
+          padding: 2.5rem;
         }
 
         .textfield :global(.cardFundo) {
@@ -29,13 +29,18 @@ export default function TextField(props) {
       <style jsx global>{`
         input {
           background: transparent;
-          border: navajowhite;
+          border: none;
           font-size: max(16px, 2.3rem);
           font-family: "Asap Condensed";
           font-weight: 600;
+          text-transform: uppercase;
           color: hsl(0deg 0% 10%);
           border-bottom: 1px solid #bbb;
           padding: 0.5rem;
+        }
+
+        input:focus-visible {
+          outline: hsl(319deg 55% 35%) auto 1px;
         }
       `}</style>
     </div>

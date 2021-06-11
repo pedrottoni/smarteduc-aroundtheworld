@@ -9,7 +9,8 @@ body {
   color: hsl(0deg 0% 10%);
 }
 
-a {
+p, a {
+  font-size: max(16px,2.3rem);
   color: inherit;
   text-decoration: none;
 }

@@ -24,7 +24,7 @@ export default function NavBreadcrumb(props) {
         header {
           background: repeating-linear-gradient(45deg, hsl(0deg 0% 100% / 0%), hsl(0deg 0% 100% / 0%) 10px, hsl(0deg 0% 100% / 3%) 10px, hsl(0deg 0% 100% / 3%) 20px), hsl(319deg 55% 35%);
           margin-bottom: 2rem;
-          padding: 10rem 0;
+          padding: 10rem 0 8rem 0;
           display: flex;
           place-content: center;
           transform: matrix(1, 0.046, 0, 1.48, 0, 0);
