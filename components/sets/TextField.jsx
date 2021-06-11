@@ -10,15 +10,16 @@ export default function TextField(props) {
       <style jsx>{`
         .textfield {
           display: flex;
-          margin: 3rem 0 3rem 0;
+          margin: 2rem 0 2rem 0;
           place-content: center;
         }
 
         .textfield :global(.card) {
           display: grid;
-          grid-template-columns: repeat(auto-fill, minmax(47%, 2fr));
+          grid-template-columns: repeat(auto-fill, minmax(36rem, 2fr));
           gap: 2rem;
           transform: rotate(-0.5deg);
+          padding: 2rem;
         }
 
         .textfield :global(.cardFundo) {
@@ -29,8 +30,10 @@ export default function TextField(props) {
         input {
           background: transparent;
           border: navajowhite;
-          font-size: 2.3rem;
+          font-size: max(16px, 2.3rem);
           font-family: "Asap Condensed";
+          font-weight: 600;
+          color: hsl(0deg 0% 10%);
           border-bottom: 1px solid #bbb;
           padding: 0.5rem;
         }

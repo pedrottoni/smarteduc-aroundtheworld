@@ -30,15 +30,16 @@ export default function BookPage(props) {
         }
 
         section {
-          width: 90rem;
+          width: min(80rem,95vw);
           place-self: center;
         }
 
         section .content {
-          display: flex;
-          gap: 3rem;
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+          gap: 2rem;
           justify-content: center;
-          margin-bottom: 2rem;
+          margin-bottom: 3rem;
         }
 
         .fullwidth {

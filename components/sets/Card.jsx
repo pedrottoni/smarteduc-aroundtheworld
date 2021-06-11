@@ -22,7 +22,7 @@ export default function Card(props) {
 
       <style jsx>{`
         .card {
-          padding: 2rem;
+          padding: clamp(1rem, 2vw, 2rem);
           background: ${props.fundo ? "hsl(0deg 0% 97%)" : "transparent"};
           border-radius: 3rem;
           height: fit-content;
@@ -33,7 +33,7 @@ export default function Card(props) {
         }
         .cardFundo {
           background: ${props.color};
-          padding: 1.3rem;
+          padding: 1rem;
           width: 100%;
           height: fit-content;
           transform: rotate(1deg);
