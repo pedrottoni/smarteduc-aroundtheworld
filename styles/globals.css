@@ -25,19 +25,53 @@ p {
 }
 
 h1 {
-  font-size: 8rem;
+  font-size: 10rem;
+}
+
+h2{
+  font-size: 9rem;
 }
 
 h3 {
-  font-size: max(50px, 3vh + 3vw);
+  font-size: 8rem;
 }
 
 h4 {
-  font-size: max(25px, 1.5vh + 1.5vw);
+  font-size: 6rem;
 }
 
 h5 {
-  font-size: max(16px, 1vh + 1.5vw);
+  font-size: 4rem;
+}
+
+h6 {
+  font-size: 2rem;
+}
+
+@media (min-width: 2560px) {
+  html {
+    font-size: 12px
+  }
+}
+@media (max-width: 2560px) {
+  html {
+    font-size: 10px
+  }
+}
+@media (max-width: 1440px) {
+  html {
+    font-size: 8px
+  }
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 4px
+  }
+}
+@media (max-width: 425px) {
+  html {
+    font-size: 3.5px
+  }
 }
 
 * {

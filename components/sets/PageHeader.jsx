@@ -24,7 +24,7 @@ export default function NavBreadcrumb(props) {
         header {
           background: repeating-linear-gradient(45deg, hsl(0deg 0% 100% / 0%), hsl(0deg 0% 100% / 0%) 10px, hsl(0deg 0% 100% / 3%) 10px, hsl(0deg 0% 100% / 3%) 20px), hsl(319deg 55% 35%);
           margin-bottom: 2rem;
-          padding: 7rem 0 5rem 0;
+          padding: max(2rem,4vw + 3vh) 0 max(2rem, 3vw + 2vh) 0;
           display: flex;
           place-content: center;
           transform: matrix(1, 0.046, 0, 1.48, 0, 0);
@@ -33,14 +33,15 @@ export default function NavBreadcrumb(props) {
         .headercontent {
           display: flex;
           place-content: space-between;
-          width: clamp(320px, 90vh, 90vw);;
+          place-items: center;
+          width: 90rem;
           transform: matrix(1, -0.033, 0, 0.7, 0, 0);
         }
 
         .pageimage {
           position: relative;
-          width: 380px;
-          height: 290px;
+          width: 35rem;
+          height: 24rem;
           margin: -4rem;
         }
       `}</style>

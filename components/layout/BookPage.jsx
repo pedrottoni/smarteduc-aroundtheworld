@@ -25,20 +25,24 @@ export default function BookPage(props) {
           display: flex;
           flex-direction: column;
           width: 100vw;
+          height: calc(100vh - 70px);
           overflow-y: scroll;
         }
 
         section {
-          width: clamp(320px, 90vh, 90vw);
+          width: 90rem;
           place-self: center;
         }
 
         section .content {
-          display: grid;
-          grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
-          gap: clamp(.5rem, 4vw ,2rem);
+          display: flex;
+          gap: 3rem;
           justify-content: center;
           margin-bottom: 2rem;
+        }
+
+        .fullwidth {
+          display: block !important;
         }
       `}</style>
     </main>

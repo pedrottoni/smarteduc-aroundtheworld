@@ -10,7 +10,7 @@ export default function TextField(props) {
       <style jsx>{`
         .textfield {
           display: flex;
-          margin: 2rem 0 2rem 0;
+          margin: 3rem 0 3rem 0;
           place-content: center;
         }
 
@@ -29,7 +29,7 @@ export default function TextField(props) {
         input {
           background: transparent;
           border: navajowhite;
-          font-size: 1rem;
+          font-size: 2.3rem;
           font-family: "Asap Condensed";
           border-bottom: 1px solid #bbb;
           padding: 0.5rem;

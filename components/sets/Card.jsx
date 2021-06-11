@@ -22,10 +22,9 @@ export default function Card(props) {
 
       <style jsx>{`
         .card {
-          padding: max(0.8rem, 2vw);
+          padding: 2rem;
           background: ${props.fundo ? "hsl(0deg 0% 97%)" : "transparent"};
-          border-radius: clamp(1rem, 2vw, 3rem);
-          /*width: clamp(10rem, 20rem, 1000px);*/
+          border-radius: 3rem;
           height: fit-content;
           box-shadow: ${props.fundo ? "inset -4px -5px 7px 3px #e3e3e3, inset 6px 6px 7px 3px #fff" : "none"};
           transform: rotate(-1deg);
@@ -34,17 +33,12 @@ export default function Card(props) {
         }
         .cardFundo {
           background: ${props.color};
-          padding: clamp(0.3rem,0.7vh + 0.5vw,1rem);
+          padding: 1.3rem;
           width: 100%;
           height: fit-content;
           transform: rotate(1deg);
-          border-radius: clamp(1rem, 2vw, 3rem);
-          box-shadow: 7px 7px ${props.shadow};
-        }
-        .card :global(p) {
-          font-size: 2rem;
-          margin-bottom: 0;
-          margin-top: 1rem;
+          border-radius: 3rem;
+          box-shadow: 1rem 1rem ${props.shadow};
         }
       `}</style>
     </>
