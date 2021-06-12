@@ -8,9 +8,9 @@ export default function Grammar(props) {
     <>
       <BookPage title="grammar" subtitle="Wh questions">
         <div className="content">
-          <Card color={Colors.smartYellow} shadow={Colors.smartYellowDark} subtitleTop="Who?" image="muffin" fundo={true} />
-          <Card color={Colors.smartBlue} shadow={Colors.smartBlueDark} subtitleTop="What?" image="muffin" fundo={true} />
-          <Card color={Colors.smartRed} shadow={Colors.smartRedDark} subtitleTop="Where?" image="muffin" fundo={true} />
+          <Card color={Colors.smartYellow} shadow={Colors.smartYellowDark} subtitleTop="Who?" image="book01/unit01/who" fundo={true} />
+          <Card color={Colors.smartBlue} shadow={Colors.smartBlueDark} subtitleTop="What?" image="book01/unit01/what" fundo={true} />
+          <Card color={Colors.smartRed} shadow={Colors.smartRedDark} subtitleTop="Where?" image="book01/unit01/where" fundo={true} />
         </div>
         <div className="content fullwidth">
           <TextField color={Colors.smartYellow} shadow={Colors.smartYellowDark} fundo={true}>

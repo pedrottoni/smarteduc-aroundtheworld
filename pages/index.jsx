@@ -10,7 +10,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Link href="/bookone">Book One</Link>
+      <Link href="/book01">Book One</Link>
 
       <style jsx>{`
         main {

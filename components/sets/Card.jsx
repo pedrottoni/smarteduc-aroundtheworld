@@ -14,7 +14,12 @@ export default function Card(props) {
       <div className="cardFundo">
         <div className="card">
           {props.subtitleTop ? <h5>{props.subtitleTop}</h5> : null}
-          {props.image ? <Image src={"/images/" + props.image + ".svg"} alt="Picture of the author" layout="responsive" width="100" height="100" /> : null}
+          {props.image ? (
+            <div className="cardImage">
+              {" "}
+              <Image src={"/images/" + props.image + ".svg"} alt="Picture of the author" layout="fill" />{" "}
+            </div>
+          ) : null}
           {props.subtitleBottom ? <h5>{props.subtitleBottom}</h5> : null}
           {props.children}
         </div>
@@ -22,12 +27,15 @@ export default function Card(props) {
 
       <style jsx>{`
         .card {
+          display: flex;
+          flex-direction: column;
+          place-items: center;
           padding: clamp(1rem, 2vw, 2rem);
           background: ${props.fundo ? "hsl(0deg 0% 97%)" : "transparent"};
           border-radius: 3rem;
           height: fit-content;
           box-shadow: ${props.fundo ? "inset -4px -5px 7px 3px #e3e3e3, inset 6px 6px 7px 3px #fff" : "none"};
-          transform: rotate(-1deg);
+          transform: rotate(-1.5deg);
           text-align: center;
           color: ${props.textColor};
         }
@@ -36,9 +44,16 @@ export default function Card(props) {
           padding: 1rem;
           width: 100%;
           height: fit-content;
-          transform: rotate(1deg);
+          transform: rotate(1.5deg);
           border-radius: 3rem;
-          box-shadow: .6rem .6rem ${props.shadow};
+          box-shadow: 0.6rem 0.6rem ${props.shadow};
+        }
+
+        .cardImage {
+          margin: 1rem 0;
+          width: clamp(12rem, 12vw, 14rem);
+          height: clamp(11rem, 12vw, 14rem);
+          position: relative;
         }
       `}</style>
     </>

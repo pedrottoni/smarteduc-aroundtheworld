@@ -4,7 +4,7 @@ export default function BookOne(props) {
   return (
     <>
       <Link href="/">Home</Link>
-      <Link href="/bookone/unitone/grammar">Grammar</Link>
+      <Link href="/book01/unit01/grammar">Grammar</Link>
     </>
   );
 }
