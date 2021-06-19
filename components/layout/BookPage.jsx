@@ -40,11 +40,12 @@ export default function BookPage(props) {
           grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
           gap: 2rem;
           justify-content: center;
+          margin-top: 2rem;
           margin-bottom: 3rem;
         }
 
         .fullwidth {
-          display: block !important;
+          grid-template-columns: 1fr !important;
         }
       `}</style>
     </main>

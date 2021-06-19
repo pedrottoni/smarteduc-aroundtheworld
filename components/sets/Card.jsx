@@ -31,22 +31,22 @@ export default function Card(props) {
           flex-direction: column;
           place-items: center;
           padding: clamp(1rem, 2vw, 2rem);
-          background: ${props.fundo ? "hsl(0deg 0% 97%)" : "transparent"};
           border-radius: 3rem;
           height: fit-content;
-          box-shadow: ${props.fundo ? "inset -4px -5px 7px 3px #e3e3e3, inset 6px 6px 7px 3px #fff" : "none"};
           transform: rotate(-1.5deg);
-          text-align: center;
+          background: ${props.fundo ? "hsl(0deg 0% 97%)" : "transparent"};
+          box-shadow: ${props.fundo ? "inset -4px -5px 7px 3px #e3e3e3, inset 6px 6px 7px 3px #fff" : "none"};
           color: ${props.textColor};
+          text-align: center;
         }
         .cardFundo {
           background: ${props.color};
+          box-shadow: 0.6rem 0.6rem ${props.shadow};
           padding: 1rem;
           width: 100%;
           height: fit-content;
           transform: rotate(1.5deg);
           border-radius: 3rem;
-          box-shadow: 0.6rem 0.6rem ${props.shadow};
         }
 
         .cardImage {

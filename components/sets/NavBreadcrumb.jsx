@@ -10,8 +10,6 @@ export default function NavBreadcrumb(props) {
   let label = "";
   var l = 0;
 
-  console.log(pathName);
-
   for (var i = 1; i < pathName.length; i++) {
     link1 = link1.concat(pathName[i]);
     label = label.concat(pathName[i]);
@@ -21,9 +19,7 @@ export default function NavBreadcrumb(props) {
       links[l].label = label.replace("/", "");
       links[l].link = link1.replace(label, "");
       links[l].class = "crumbs";
-      console.log(i);
-      console.log(links);
-      console.log(l);
+
       l++;
       label = "";
     }
@@ -44,13 +40,13 @@ export default function NavBreadcrumb(props) {
           background: #eee;
         }
         .crumbs {
-          font-size: max(16px,1.5rem);
+          font-size: max(16px, 1.5rem);
           font-weight: 600;
         }
         .crumbs:after {
           content: ">>";
-          margin: 0 .5rem;
-          font-size: max(25px,2rem);
+          margin: 0 0.5rem;
+          font-size: max(25px, 2rem);
           line-height: 0;
         }
         .disabled {

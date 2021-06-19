@@ -1,6 +1,6 @@
+import BookPage from "../../../components/layout/BookPage";
 import Card from "../../../components/sets/Card";
 import TextField from "../../../components/sets/TextField";
-import BookPage from "../../../components/layout/BookPage";
 import { Colors } from "../../../components/items/Colors";
 
 export default function Grammar(props) {

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 372 401">
+  <defs/>
+  <g id="boy">
+    <g id="Group">
+      <path id="Vector" fill="url(#paint0_linear)" d="M84.5 279c-6.9 8-14.4 18.4-21 31-6.5 12.6-12 27.4-15 44.5-2.5 14-3.2 29.4-1.4 46.3h37.4l29.4-40.3L84.5 279z"/>
+      <path id="Vector_2" fill="url(#paint1_linear)" d="M323.6 354.5c-6-34-22-59.2-35.9-75.3v-.2.1l-29.4 81.4 29.3 40.2H325c1.8-16.8 1-32.3-1.4-46.2z"/>
+    </g>
+    <path id="Vector_3" fill="url(#paint2_radial)" d="M287.6 279v121.8h-203V279h203z"/>
+    <path id="Vector_4" fill="url(#paint3_linear)" d="M107.6 279l1.3 12.6c.3 2.5 2.1 15.8 11 32.8 11.6 22.4 30.5 41.1 54.6 54.3l11.6 6.4 11.6-6.4c24-13.2 43-32 54.6-54.3a98.3 98.3 0 0011-32.8l1.3-12.5h-157zm78.5 78.6c-48.7-26.7-53.2-68.6-53.2-68.6h106.3s-4.5 41.9-53.1 68.6z"/>
+    <path id="Vector_5" fill="url(#paint4_linear)" d="M248 283.3s-5.2 48.8-62 80c-56.6-31.2-61.8-80-61.8-80H248z"/>
+    <path id="Vector_6" fill="url(#paint5_radial)" d="M15.7 47.4a16.5 16.5 0 0116.5-13.6c41.1.5 67.7-33 153.9-33 96.5 0 175 75.6 175 168.5l-23.4 20.9L186 213.7 35.3 195 19 169.3a299.1 299.1 0 01-3.4-122z"/>
+    <path id="Vector_7" fill="url(#paint6_radial)" d="M33.2 178.9l1.4-.4s47.4-12 47.4-67c0 0 44 11.2 104 11.2 60.2 0 104.1-11.3 104.1-11.3 0 55 47.4 67 47.4 67l1.4.6 5 16.6-11.4 16.6C313.4 272.2 255 316 186.1 316c-69 0-127.3-43.7-146.5-103.7L24.1 199l9.1-20.1z"/>
+    <g id="Group_2">
+      <path id="Vector_8" fill="url(#paint7_linear)" d="M33.3 179.4c.8 11.4 3 22.3 6.3 32.8a34.1 34.1 0 11-8.6-67.7c.2 17.1 2.2 34.4 2.2 34.4v.5z"/>
+      <path id="Vector_9" fill="url(#paint8_linear)" d="M338.9 179.4c-.8 11.4-3 22.3-6.4 32.8a34.1 34.1 0 108.6-67.7C341 161.6 339 179 339 179v.5z"/>
+    </g>
+    <g id="Group_3" fill="#F98084">
+      <path id="Vector_10" d="M253.3 226.8h22a6 6 0 100-12h-22a6 6 0 000 12z"/>
+      <path id="Vector_11" d="M96.8 226.8h22a6 6 0 000-12h-22a6 6 0 000 12z"/>
+    </g>
+    <g id="Group_4" fill="#3B484A">
+      <path id="Vector_12" d="M264.3 203a6 6 0 006-6v-16.2a6 6 0 00-12 0V197a6 6 0 006 6z"/>
+      <path id="Vector_13" d="M107.9 203a6 6 0 006-6v-16.2a6 6 0 10-12 0V197a6 6 0 006 6z"/>
+      <path id="Vector_14" d="M186 225.9c7.6 0 14.7-3.2 19.5-8.7a6 6 0 10-9-8 13.7 13.7 0 01-10.4 4.6c-4 0-7.9-1.6-10.4-4.5a6 6 0 10-9 8 25.7 25.7 0 0019.4 8.6z"/>
+    </g>
+  </g>
+  <defs>
+    <linearGradient id="paint0_linear" x1="56.1" x2="113.9" y1="400.8" y2="297.7" gradientUnits="userSpaceOnUse">
+      <stop offset=".2" stop-color="#EFEDEE"/>
+      <stop offset="1" stop-color="#D6D1D4"/>
+    </linearGradient>
+    <linearGradient id="paint1_linear" x1="271.9" x2="352" y1="328.6" y2="358.7" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D6D1D4"/>
+      <stop offset=".6" stop-color="#EFEDEE"/>
+    </linearGradient>
+    <linearGradient id="paint3_linear" x1="186.1" x2="186.1" y1="279" y2="385.1" gradientUnits="userSpaceOnUse">
+      <stop offset=".2" stop-color="#D3313D"/>
+      <stop offset=".4" stop-color="#DC5A64"/>
+    </linearGradient>
+    <linearGradient id="paint4_linear" x1="186.1" x2="186.1" y1="283.3" y2="363.2" gradientUnits="userSpaceOnUse">
+      <stop offset=".3" stop-color="#D1CCCF"/>
+      <stop offset=".7" stop-color="#EFEDEE"/>
+    </linearGradient>
+    <linearGradient id="paint7_linear" x1="12.6" x2="56" y1="170.1" y2="204.8" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FCC4AE"/>
+      <stop offset=".6" stop-color="#ECA689"/>
+    </linearGradient>
+    <linearGradient id="paint8_linear" x1="371.6" x2="332.5" y1="174.5" y2="202.6" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FCC4AE"/>
+      <stop offset=".6" stop-color="#ECA688"/>
+    </linearGradient>
+    <radialGradient id="paint2_radial" cx="0" cy="0" r="1" gradientTransform="matrix(2.1575 94.93409 -158.35111 3.59874 191 257.5)" gradientUnits="userSpaceOnUse">
+      <stop offset=".6" stop-color="#1EA3C3"/>
+      <stop offset="1" stop-color="#42C3E2"/>
+    </radialGradient>
+    <radialGradient id="paint5_radial" cx="0" cy="0" r="1" gradientTransform="matrix(137.98732 -92.1967 174.30116 260.86998 95.7 107.2)" gradientUnits="userSpaceOnUse">
+      <stop offset=".4" stop-color="#3D4F51"/>
+      <stop offset="1" stop-color="#2C373A"/>
+    </radialGradient>
+    <radialGradient id="paint6_radial" cx="0" cy="0" r="1" gradientTransform="matrix(190.74093 172.49586 -157.38132 174.0277 145.7 102)" gradientUnits="userSpaceOnUse">
+      <stop offset=".6" stop-color="#FCC4AD"/>
+      <stop offset=".9" stop-color="#ECA689"/>
+    </radialGradient>
+  </defs>
+</svg>

@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function NavBreadcrumb(props) {
+export default function PageHeader(props) {
   return (
     <header>
       <div className="headercontent">

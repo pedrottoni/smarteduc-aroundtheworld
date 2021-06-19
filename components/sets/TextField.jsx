@@ -10,7 +10,6 @@ export default function TextField(props) {
       <style jsx>{`
         .textfield {
           display: flex;
-          margin: 2rem 0 2rem 0;
           place-content: center;
         }
 
