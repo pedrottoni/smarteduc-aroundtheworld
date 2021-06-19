@@ -6,7 +6,8 @@ export default function PageHeader(props) {
       <div className="headercontent">
         <div className="pagetitle">
           <h3>{props.title}</h3>
-          <h4>{props.subtitle}</h4>
+          {props.title2 ? <h3 className="title2">{props.title2}</h3> : null}
+          {props.subtitle ? <h4>{props.subtitle}</h4> : null}
         </div>
         <div className="pageimage">
           <Image src={"/images/" + props.title + ".svg"} alt="Picture of the author" layout="fill" />
@@ -16,6 +17,10 @@ export default function PageHeader(props) {
       <style jsx>{`
         h3 {
           color: hsl(40deg 97% 58%);
+        }
+
+        .title2 {
+          color: #fff
         }
         h4 {
           color: hsl(0deg 0% 100%);

@@ -46,7 +46,8 @@ h5 {
 }
 
 h6 {
-  font-size: 2rem;
+  font-size: 3rem;
+  font-weight: 600;
 }
 
 @media (min-width: 2560px) {

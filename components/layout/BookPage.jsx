@@ -1,10 +1,10 @@
 import Image from "next/image";
-import Header from "../sets/PageHeader";
+import PageHeader from "../sets/PageHeader";
 
 export default function BookPage(props) {
   return (
     <main>
-      <Header title={props.title} subtitle={props.subtitle} />
+      <PageHeader title={props.title} title2={props.title2} subtitle={props.subtitle} />
       <section>{props.children}</section>
       <footer>
         <p>Footer</p>
@@ -37,14 +37,14 @@ export default function BookPage(props) {
 
         section .content {
           display: grid;
-          grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+          grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
           gap: 2rem;
           justify-content: center;
           margin-top: 2rem;
           margin-bottom: 3rem;
         }
 
-        .fullwidth {
+        section .content.fullwidth {
           grid-template-columns: 1fr !important;
         }
       `}</style>

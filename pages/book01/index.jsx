@@ -18,6 +18,15 @@ export default function BookOne(props) {
         .links {
           display: flex;
           gap: 2rem;
+          place-items: center;
+          text-align: center;
+}
+        }
+
+        .links :global(a) {
+          border-radius: 2rem;
+          padding: 1rem;
+          background: #ccc;
         }
       `}</style>
     </div>

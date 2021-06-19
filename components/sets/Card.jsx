@@ -16,16 +16,22 @@ export default function Card(props) {
           {props.subtitleTop ? <h5>{props.subtitleTop}</h5> : null}
           {props.image ? (
             <div className="cardImage">
-              {" "}
-              <Image src={"/images/" + props.image + ".svg"} alt="Picture of the author" layout="fill" />{" "}
+              <Image src={"/images/" + props.image + ".svg"} alt="Picture of the author" layout="fill" />
             </div>
           ) : null}
-          {props.subtitleBottom ? <h5>{props.subtitleBottom}</h5> : null}
+          {props.subtitleBottom ? <h6>{props.subtitleBottom}</h6> : null}
           {props.children}
         </div>
       </div>
 
       <style jsx>{`
+        h5 {
+          margin-bottom: 2rem;
+        }
+        h6 {
+          margin-top: 2rem;
+        }
+
         .card {
           display: flex;
           flex-direction: column;
@@ -51,8 +57,8 @@ export default function Card(props) {
 
         .cardImage {
           margin: 1rem 0;
-          width: clamp(12rem, 12vw, 14rem);
-          height: clamp(11rem, 12vw, 14rem);
+          width: 100%;
+          height: clamp(8rem, 12rem, 14rem);
           position: relative;
         }
       `}</style>
