@@ -1,5 +1,6 @@
 import Balloon from "../items/Balloon";
 import Image from "next/image";
+import Card from "./Card";
 
 export default function Speaking(props) {
   return (
@@ -12,6 +13,7 @@ export default function Speaking(props) {
           </div>
         ) : null}
       </div>
+      {props.cardImage ? <Card color={props.cardColor} shadow={props.cardShadow} image={props.cardImage} fundo={true} /> : null}
       <div className="avatar avatar2">
         {props.image ? (
           <div className="image">
@@ -25,7 +27,7 @@ export default function Speaking(props) {
         .speaking {
           display: grid;
           gap: 2rem;
-          grid-template-columns: 1fr 1fr;
+          grid-template-columns: 1fr ${props.cardImage ? ".5fr" : "" } 1fr;
         }
         @media (max-width: 768px) {
           .speaking {

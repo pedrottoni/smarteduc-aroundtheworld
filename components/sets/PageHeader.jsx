@@ -10,7 +10,7 @@ export default function PageHeader(props) {
           {props.subtitle ? <h4>{props.subtitle}</h4> : null}
         </div>
         <div className="pageimage">
-          <Image src={"/images/" + props.title + ".svg"} alt="Picture of the author" layout="fill" />
+          <Image src={"/images/" + props.title + ".svg"} alt={props.title + " " + (props.title2 ? props.title2 : null) + " " + (props.subtitle ? props.subtitle : "")} layout="fill" />
         </div>
       </div>
 
@@ -20,7 +20,7 @@ export default function PageHeader(props) {
         }
 
         .title2 {
-          color: #fff
+          color: #fff;
         }
         h4 {
           color: hsl(0deg 0% 100%);
@@ -52,8 +52,10 @@ export default function PageHeader(props) {
         .pageimage {
           position: relative;
           width: 35rem;
-          height: 24rem;
-          margin: -4rem;
+          height: clamp(8rem, 35rem, 40rem);
+          margin: -9rem;
+          right: 0;
+          filter: drop-shadow(0px 5px 10px hsl(0deg 0% 0% / 30%));
         }
         @media (max-width: 768px) {
           .pageimage {

@@ -16,7 +16,7 @@ export default function Card(props) {
           {props.subtitleTop ? <h5>{props.subtitleTop}</h5> : null}
           {props.image ? (
             <div className="cardImage">
-              <Image src={"/images/" + props.image + ".svg"} alt="Picture of the author" layout="fill" />
+              <Image src={"/images/" + props.image + ".svg"} alt={props.subtitleTop ? props.subtitleTop : props.subtitleBottom} layout="fill" />
             </div>
           ) : null}
           {props.subtitleBottom ? <h6>{props.subtitleBottom}</h6> : null}
@@ -26,10 +26,10 @@ export default function Card(props) {
 
       <style jsx>{`
         h5 {
-          margin-bottom: 2rem;
+          margin-bottom: 1rem;
         }
         h6 {
-          margin-top: 2rem;
+          margin-top: 1rem;
         }
 
         .card {
@@ -60,6 +60,8 @@ export default function Card(props) {
           width: 100%;
           height: clamp(8rem, 12rem, 14rem);
           position: relative;
+          transform: rotate(-8deg);
+          filter: drop-shadow(0px 5px 5px hsl(0deg 0% 0% / 20%));
         }
       `}</style>
     </>
