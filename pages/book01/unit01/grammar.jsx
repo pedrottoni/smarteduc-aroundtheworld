@@ -33,6 +33,12 @@ export default function Grammar(props) {
           </TextField>
         </div>
       </BookPage>
+
+      <style jsx global>{`
+        .cardFundo:hover {
+          transform: scale(1.05) !important;
+        }
+      `}</style>
     </>
   );
 }

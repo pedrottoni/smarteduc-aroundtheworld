@@ -1,5 +1,6 @@
 export default function Balloon(props) {
-  const padding = props.text.length;
+  const spaces = props.text.replace(/\s/g, '')
+  const padding = spaces.length;
 
   return (
     <div className="balloon">
@@ -7,19 +8,20 @@ export default function Balloon(props) {
 
       <style jsx>{`
         .balloon {
-          width: ${padding > 25 ? Math.sqrt(padding) * 4.5 - 2 + "rem" : "fit-content"};
+          width:  ${padding > 18 ? 1.3 + (padding / 2.5 ) * 2 + "rem" : "fit-content"};
+          max-width:  26rem;
           background: ${props.color};
           box-shadow: ${props.left ? "-0.5rem" : ".5rem"} 0.5rem ${props.shadow};
           color: #fff;
-          padding: ${props.left ? "2rem " + (Math.sqrt(padding) / 6 + 1) + "rem 2rem " + (Math.sqrt(padding) / 2 + 1) + "rem" : "2rem " + (Math.sqrt(padding) / 2 + 1) + "rem 2rem " + (Math.sqrt(padding) / 6 + 1) + "rem"};
+          padding: 2rem;
           border-radius: 2rem;
-          transform: perspective(2rem) rotateY(${props.left ? "-1deg" : "1deg"});
+          transform: perspective(100rem) rotateY(${props.left ? "-" + 20 - Math.sqrt(padding) + "deg" : 20 - Math.sqrt(padding) + "deg"});
           text-align: ${props.left ? "left" : "right"};
         }
 
         .balloon p {
-          transform: perspective(2rem) rotateY(${props.left ? "1deg" : "-1deg"});
           font-weight: 600;
+          transform: perspective(100rem) rotateY(${props.left ? 20 - Math.sqrt(padding) + "deg" : "-" + 20 - Math.sqrt(padding) + "deg"});
         }
 
         .balloon:after {

@@ -41,18 +41,28 @@ export default function Card(props) {
           height: fit-content;
           transform: rotate(-1.5deg);
           background: ${props.fundo ? "hsl(0deg 0% 97%)" : "transparent"};
-          box-shadow: ${props.fundo ? "inset -4px -5px 7px 3px #e3e3e3, inset 6px 6px 7px 3px #fff" : "none"};
+          box-shadow: ${props.fundo ? "inset -3px -5px 7px 5px #d9d9d9, inset 6px 6px 7px 3px #fff" : "none"};
           color: ${props.textColor};
           text-align: center;
         }
+
         .cardFundo {
           background: ${props.color};
           box-shadow: 0.6rem 0.6rem ${props.shadow};
-          padding: 1rem;
+          padding: 0.8rem;
           width: 100%;
+          min-width: 16rem;
           height: fit-content;
           transform: rotate(1.5deg);
           border-radius: 3rem;
+          place-self: center;
+          transition: 0.4s;
+        }
+
+        .cardFundo:hover {
+          transform: scale(1.1);
+          z-index: 1;
+          filter: drop-shadow(0px 7px 50px hsl(0deg 0% 0% / 30%));
         }
 
         .cardImage {
@@ -61,7 +71,7 @@ export default function Card(props) {
           height: clamp(8rem, 12rem, 14rem);
           position: relative;
           transform: rotate(-8deg);
-          filter: drop-shadow(0px 5px 5px hsl(0deg 0% 0% / 20%));
+          filter: drop-shadow(0px 5px 5px hsl(0deg 0% 0% / 10%));
         }
       `}</style>
     </>

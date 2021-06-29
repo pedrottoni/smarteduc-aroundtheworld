@@ -10,9 +10,7 @@ export default function BookPage(props) {
         <p>Footer</p>
       </footer>
 
-      <style jsx>{`
-
-      `}</style>
+      <style jsx>{``}</style>
       <style jsx global>{`
         #__next {
           display: flex;
@@ -31,8 +29,9 @@ export default function BookPage(props) {
         }
 
         section {
-          width: min(80rem,95vw);
+          width: min(80rem, 95vw);
           place-self: center;
+          z-index: 1;
         }
 
         section .content {

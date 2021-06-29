@@ -27,7 +27,7 @@ export default function Speaking(props) {
         .speaking {
           display: grid;
           gap: 2rem;
-          grid-template-columns: 1fr ${props.cardImage ? ".5fr" : "" } 1fr;
+          grid-template-columns: 1fr ${props.cardImage ? ".5fr" : ""} 1fr;
         }
         @media (max-width: 768px) {
           .speaking {
@@ -63,18 +63,18 @@ export default function Speaking(props) {
 
         .speaking .avatar .image {
           position: relative;
-          width: 8rem;
-          height: 8rem;
-          clip-path: circle(57% at 50% 40%);
+          width: 10rem;
+          height: 9rem;
+          clip-path: circle(55% at 50% 38%);
         }
 
         .speaking .avatar .image:after {
-          width: 8rem;
+          width: 100%;
           content: "";
-          height: 6rem;
+          height: 80%;
           position: absolute;
           z-index: -1;
-          top: 1.4rem;
+          top: 0.8rem;
           clip-path: circle(50% at 50% 50%);
         }
 
@@ -84,6 +84,15 @@ export default function Speaking(props) {
 
         .speaking .avatar.avatar2 .image:after {
           background: ${props.avatar2.color};
+        }
+      `}</style>
+
+      <style jsx global>{`
+        .card {
+          ${props.cardImage ? "height: 12rem !important; padding: 0rem !important" : null}
+        }
+        .cardFundo {
+          ${props.cardImage ? "max-width: 20rem; !important" : null}
         }
       `}</style>
     </div>

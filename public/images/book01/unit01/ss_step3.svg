@@ -1,0 +1,41 @@
+<svg width="585" height="522" viewBox="0 0 585 522" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="ss_step3">
+<g id="Vector" filter="url(#filter0_d)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M572.332 322.446L574.842 454.696C575.322 480.336 554.902 501.486 529.252 501.896L55.5803 507.866C29.9302 508.276 8.72 487.796 8.23 462.146L5.31983 308.676C33.9599 306.206 56.4704 282.146 56.4704 252.866C56.4704 222.866 32.8403 198.346 3.2002 196.916L0.459952 53.1759C-0.0200498 27.536 20.4004 6.37601 46.0504 5.96601L519.722 0.00605013C545.372 -0.40395 566.582 20.076 567.072 45.726L569.672 182.876C569.672 238.716 572.332 293.796 572.332 322.446Z" fill="#FCB72E"/>
+</g>
+<g id="Vector_2" filter="url(#filter1_ii)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M548.262 60.5559V447.316C548.262 470.456 529.472 489.246 506.332 489.246H68.9704C45.8303 489.246 27.04 470.456 27.04 447.316V318.316C52.8601 307.806 71.09 282.446 71.09 252.866C71.09 223.286 52.8601 197.936 27.04 187.426V60.5559C27.04 37.4059 45.8303 18.626 68.9704 18.626H506.332C529.472 18.626 548.262 37.4059 548.262 60.5559Z" fill="#F7F7F7"/>
+</g>
+<g id="END WITH WORD OF YOUR CHOICE">
+<text fill="#262626" xml:space="preserve" style="white-space: pre" font-family="Asap Condensed" font-size="66.6666" font-weight="600" letter-spacing="0em"><tspan x="173.84" y="282.089">END WITH&#13;&#10;</tspan><tspan x="267.362" y="358.089"> OF YOUR&#13;&#10;</tspan><tspan x="206.848" y="434.089"> CHOICE</tspan></text>
+<text fill="#8C296C" xml:space="preserve" style="white-space: pre" font-family="Asap Condensed" font-size="66.6666" font-weight="600" letter-spacing="0em"><tspan x="105.838" y="358.089">WORD</tspan></text>
+</g>
+<text id="STEP 3" fill="#F1535C" xml:space="preserve" style="white-space: pre" font-family="Asap Condensed" font-size="125" font-weight="bold" letter-spacing="0em"><tspan x="152.694" y="168.817">STEP 3</tspan></text>
+</g>
+<defs>
+<filter id="filter0_d" x="0.45166" y="0" width="584.398" height="521.872" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dx="10" dy="14"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.686275 0 0 0 0 0.333333 0 0 0 0 0.117647 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<filter id="filter1_ii" x="22.04" y="13.626" width="532.222" height="481.62" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="-5" dy="-5"/>
+<feGaussianBlur stdDeviation="11"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.16 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="8" dy="8"/>
+<feGaussianBlur stdDeviation="3"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+<feBlend mode="normal" in2="effect1_innerShadow" result="effect2_innerShadow"/>
+</filter>
+</defs>
+</svg>
