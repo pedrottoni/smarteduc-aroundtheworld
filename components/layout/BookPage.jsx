@@ -46,6 +46,15 @@ export default function BookPage(props) {
         section .content.fullwidth {
           grid-template-columns: 1fr !important;
         }
+
+        section .content.IIcol {
+          grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr)) !important;
+        }
+
+        section .content.colCenter {
+          display: flex !important;
+          flex-wrap: wrap !important;
+        }
       `}</style>
     </main>
   );

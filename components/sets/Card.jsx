@@ -12,6 +12,7 @@ export default function Card(props) {
   return (
     <>
       <div className="cardFundo">
+        {props.title ? <h6 className="cardTitle">{props.title}</h6> : null}
         <div className="card">
           {props.subtitleTop ? <h5>{props.subtitleTop}</h5> : null}
           {props.image ? (
@@ -30,6 +31,12 @@ export default function Card(props) {
         }
         h6 {
           margin-top: 1rem;
+        }
+
+        .cardTitle {
+          color: #fff;
+          margin-bottom: 1rem;
+          text-align: center;
         }
 
         .card {
