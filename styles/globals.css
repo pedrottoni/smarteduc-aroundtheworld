@@ -79,3 +79,7 @@ h6 {
 * {
   box-sizing: border-box;
 }
+
+.txtCenter {
+  text-align: center;
+}
