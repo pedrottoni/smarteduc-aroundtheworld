@@ -6,7 +6,7 @@ import { Colors } from "../../../components/items/Colors";
 export default function Grammar(props) {
   return (
     <>
-      <BookPage title="grammar" subtitle="Wh questions">
+      <BookPage title="grammar" subtitle="Wh questions" image="">
         <div className="content">
           <Card color={Colors.smartYellow} shadow={Colors.smartYellowDark} subtitleTop="Who?" image="book01/unit01/who" fundo={true} />
           <Card color={Colors.smartBlue} shadow={Colors.smartBlueDark} subtitleTop="What?" image="book01/unit01/what" fundo={true} />

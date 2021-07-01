@@ -3,22 +3,20 @@ import Image from "next/image";
 
 export default function Puzzle(props) {
   return (
-    <div className="puzzle">
-      <Image src={"/images/" + props.image + ".svg"} layout="fill" />
+    <>
+      <Image className={props.name} src={"/images/" + props.image + ".svg"} layout="responsive" width={props.width} height={props.height} />
 
-      <style jsx>{`
-        .puzzle {
-          position: relative;
-          height: 21rem;
-          filter: drop-shadow(0.6rem 0.8rem 0 #af551e);
-        }
-      `}</style>
+      <style jsx>{``}</style>
 
       <style jsx global>{`
+        ${"." + props.name} {
+          filter: drop-shadow(0.6rem 0.8rem 0 ${props.shadow});
+          padding: .5rem !important;
+        }
         section .content.svg {
           gap: 0.5rem !important;
         }
       `}</style>
-    </div>
+    </>
   );
 }

@@ -4,7 +4,7 @@ import PageHeader from "../sets/PageHeader";
 export default function BookPage(props) {
   return (
     <main>
-      <PageHeader title={props.title} title2={props.title2} subtitle={props.subtitle} />
+      <PageHeader title={props.title} title2={props.title2} subtitle={props.subtitle} image={props.image}/>
       <section>{props.children}</section>
       <footer>
         <p>Footer</p>
@@ -29,7 +29,7 @@ export default function BookPage(props) {
         }
 
         section {
-          width: min(80rem, 95vw);
+          width: min(80rem, 98vw);
           place-self: center;
           z-index: 1;
         }

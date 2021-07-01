@@ -8,7 +8,7 @@ export default function ThemedSpeaking(props) {
 
   return (
     <>
-      <BookPage title="speaking" subtitle="personal information">
+      <BookPage title="speaking" subtitle="personal information" image="">
         <div className="content fullwidth">
           <Speaking avatar1={secretary} rightText="Do you have a passport?" avatar2={boy} leftText="Yes, I have a passport." image={true} />
           <Speaking avatar1={secretary} rightText="What is your name?" avatar2={boy} leftText="My name is Smart." image={true} />

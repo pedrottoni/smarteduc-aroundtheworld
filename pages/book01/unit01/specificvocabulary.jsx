@@ -5,7 +5,7 @@ import { Colors } from "../../../components/items/Colors";
 export default function SpecificVocabulary(props) {
   return (
     <>
-      <BookPage title="packing" title2="a suitcase">
+      <BookPage title="packing" title2="a suitcase" image="book01/unit01/">
         <div className="content">
           <Card color={Colors.smartBlue} shadow={Colors.smartBlueDark} subtitleBottom="t-shirt" image={"book01/unit01/t-shirt"} fundo={true} />
           <Card color={Colors.smartBlue} shadow={Colors.smartBlueDark} subtitleBottom="dress" image="book01/unit01/dress" fundo={true} />

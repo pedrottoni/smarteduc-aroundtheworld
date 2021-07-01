@@ -3,7 +3,7 @@ import Card from "./Card";
 export default function TextField(props) {
   return (
     <div className="textfield">
-      <Card title={props.title} color={props.color} shadow={props.shadow} fundo={true}>
+      <Card imageTitle={props.imageTitle} title={props.title} color={props.color} shadow={props.shadow} fundo={true}>
         {props.children}
       </Card>
 
@@ -25,6 +25,10 @@ export default function TextField(props) {
         .textfield :global(.cardFundo) {
           transform: rotate(0.5deg);
         }
+
+        .textfield :global(.cardFundo:hover) {
+          transform: scale(1.1);
+        }
       `}</style>
       <style jsx global>{`
         input {
@@ -36,7 +40,7 @@ export default function TextField(props) {
           text-transform: uppercase;
           color: hsl(0deg 0% 10%);
           border-bottom: 1px solid #bbb;
-          padding: 0.5rem;
+          padding: 0;
         }
 
         input:focus-visible {

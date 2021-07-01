@@ -1,17 +1,14 @@
 import Image from "next/image";
 
-/*
-  EXEMPLOS DE CARD:
-  <Card color={smartBlue} shadow={smartBlueDark} textColor={smartWhite} item="Bolinho" subtitleBottom="Bolinho" />
-  <Card color={smartPurple} shadow={smartPurpleDark} textColor={smartWhite} subtitleTop="Bolinho" />
-  <Card color={smartYellow} shadow={smartYellowDark} subtitleTop="Bolinho" subtitleBottom="Bolinho" />
-  <Card color={smartYellow} shadow={smartYellowDark} subtitleTop="Bolinho" subtitleBottom="Bolinho" image="muffin.svg" fundo={true} />
-*/
-
 export default function Card(props) {
   return (
     <>
       <div className="cardFundo">
+        {props.imageTitle ? (
+          <div className="imageTitle">
+            <Image src={props.imageTitle} alt={props.subtitleTop ? props.subtitleTop : props.subtitleBottom} layout="fill" />{" "}
+          </div>
+        ) : null}
         {props.title ? <h6 className="cardTitle">{props.title}</h6> : null}
         <div className="card">
           {props.subtitleTop ? <h5>{props.subtitleTop}</h5> : null}
@@ -33,6 +30,13 @@ export default function Card(props) {
           margin-top: 1rem;
         }
 
+        .imageTitle {
+          width: 8rem;
+          height: 8rem;
+          margin-top: 1rem;
+          position: relative;
+          place-self: center;
+        }
         .cardTitle {
           color: #fff;
           margin-bottom: 1rem;
@@ -51,9 +55,12 @@ export default function Card(props) {
           box-shadow: ${props.fundo ? "inset -3px -5px 7px 5px #d9d9d9, inset 6px 6px 7px 3px #fff" : "none"};
           color: ${props.textColor};
           text-align: center;
+          width: 100%;
         }
 
         .cardFundo {
+          display: flex;
+          flex-direction: column;
           background: ${props.color};
           box-shadow: 0.6rem 0.6rem ${props.shadow};
           padding: 0.8rem;
@@ -81,6 +88,7 @@ export default function Card(props) {
           filter: drop-shadow(0px 5px 5px hsl(0deg 0% 0% / 10%));
         }
       `}</style>
+      <style jsx global>{``}</style>
     </>
   );
 }
