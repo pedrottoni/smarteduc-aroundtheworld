@@ -83,3 +83,15 @@ h6 {
 .txtCenter {
   text-align: center;
 }
+
+.cSpan2 {
+  grid-column: span 2;
+}
+
+.cSpan3 {
+  grid-column: span 3;
+}
+
+.cSpan4 {
+  grid-column: span 4;
+}

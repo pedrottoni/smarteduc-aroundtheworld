@@ -27,11 +27,16 @@ export default function TextField(props) {
         }
 
         .textfield :global(.cardFundo:hover) {
-          transform: scale(1.1);
+          transform: scale(1.02);
+        }
+
+        .textfield :global(div) {
+          text-align: left;
         }
       `}</style>
       <style jsx global>{`
         input {
+          position: relative;
           background: transparent;
           border: none;
           font-size: max(16px, 2.3rem);
@@ -41,10 +46,21 @@ export default function TextField(props) {
           color: hsl(0deg 0% 10%);
           border-bottom: 1px solid #bbb;
           padding: 0;
+          width: -webkit-fill-available
         }
 
         input:focus-visible {
           outline: hsl(319deg 55% 35%) auto 1px;
+        }
+
+        label {
+          position: relative;
+          left: 0;
+          top: -4.3rem;
+          font-size: 1.4rem;
+          font-weight: 700;
+          color: hsl(319deg 55% 35%);
+          margin-bottom: 1rem;
         }
       `}</style>
     </div>

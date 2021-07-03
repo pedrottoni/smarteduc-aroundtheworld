@@ -74,7 +74,7 @@ export default function Card(props) {
         }
 
         .cardFundo:hover {
-          transform: scale(1.1);
+          transform: scale(1.02);
           z-index: 1;
           filter: drop-shadow(0px 7px 50px hsl(0deg 0% 0% / 30%));
         }
