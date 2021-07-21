@@ -1,5 +1,8 @@
 import Head from "next/head";
-import Link from "next/link";
+import Image from "next/image";
+import NavHeader from "../components/sets/NavHeader";
+import Button from "../components/items/Button";
+import { Colors } from "../components/items/Colors";
 
 export default function Home() {
   return (
@@ -10,15 +13,32 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Link href="/book01">Book One</Link>
+      <NavHeader />
+
+      <div className="coverLogo">
+        <Image src="/images/coverLogo.svg" layout="fill" />
+      </div>
+
+      <Button text="Start" onClick="" link="/books" color={Colors.smartPurple} shadow={Colors.smartPurpleDark} />
 
       <style jsx>{`
-        main {
-          padding: 2rem;
-          display: flex;
-          justify-content: center;
-          gap: 3rem;
+        .coverLogo {
+          position: relative;
+          margin: 10rem auto;
+          width: 100vw;
+          height: 60rem;
         }
+      `}</style>
+
+      <style jsx global>{`
+        #__next {
+          display: flex;
+          flex-direction: column;
+          place-items: center;
+          place-content: center;
+          height: 100vh;
+          background: radial-gradient(36.78% 65.39% at 50% 59.42%, #73CEE1 0%, #5CC7DD 17%, #25B7D3 37%, #0099B8 100%);
+          overflow: hidden;
       `}</style>
     </>
   );

@@ -36,8 +36,7 @@ export default function NavBreadcrumb(props) {
       ))}
       <style jsx>{`
         nav {
-          padding: 1rem 2rem;
-          background: #eee;
+          padding: 0 0 2rem 0;
         }
         .crumbs {
           font-size: max(16px, 1.5rem);

@@ -1,18 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@400;600;700&display=swap");
 
+* {
+  box-sizing: border-box;
+  font-family: "Asap Condensed", sans-serif;
+  text-transform: uppercase;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "Asap Condensed", sans-serif;
-  text-transform: uppercase;
   color: hsl(0deg 0% 10%);
 }
 
-p, a {
-  font-size: max(16px,2.3rem);
+p,
+a {
+  font-size: max(16px, 2.3rem);
   color: inherit;
   text-decoration: none;
+}
+
+a {
+  font-weight: 700;
 }
 
 h1,
@@ -76,8 +85,16 @@ h6 {
   }
 }
 
-* {
-  box-sizing: border-box;
+label {
+  font-size: max(16px, 2.3rem);
+}
+
+button {
+  border: none;
+}
+
+hr {
+  width: 100%;
 }
 
 .txtCenter {

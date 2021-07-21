@@ -13,7 +13,7 @@ export default function ThemedVocabulary(props) {
           <Puzzle name="boy" image="book01/unit01/passport boy" shadow={Colors.smartBlueDark} col="Icol" width="285" height="150" />
         </div>
         <div className="content svg fullwidth">
-          <TextField imageTitle="/images/book01/unit01/travel.svg" title="passport" color={Colors.smartYellow} shadow={Colors.smartYellowDark} fundo={true}>
+          <TextField imageTitle="/images/book01/unit01/travel.svg" title="passport" color={Colors.smartYellow} shadow={Colors.smartYellowDark} fundo={true} label={true}>
             <div>
               <input id="surname" type="text" />
               <label for="surname">surname</label>

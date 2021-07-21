@@ -19,7 +19,7 @@ export default function TextField(props) {
           place-items: unset;
           gap: 2rem;
           transform: rotate(-0.5deg);
-          padding: 2.5rem;
+          padding: ${props.label ? "6rem 2.5rem 1rem" : "2.5rem"};
         }
 
         .textfield :global(.cardFundo) {
@@ -56,8 +56,7 @@ export default function TextField(props) {
         label {
           position: relative;
           left: 0;
-          top: -4.3rem;
-          font-size: 1.4rem;
+          top: -6rem;
           font-weight: 700;
           color: hsl(319deg 55% 35%);
           margin-bottom: 1rem;
