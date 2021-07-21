@@ -27,7 +27,6 @@ export default function BookPage(props) {
         section {
           width: min(80rem, 98vw);
           place-self: center;
-          z-index: 1;
         }
 
         section .content {

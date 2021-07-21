@@ -10,7 +10,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  color: hsl(0deg 0% 10%);
+  color: hsl(0deg 0% 20%);
 }
 
 p,
@@ -111,4 +111,23 @@ hr {
 
 .cSpan4 {
   grid-column: span 4;
+}
+
+.textColorPurple {
+  color: hsl(319deg 55% 35%);
+}
+.textColorYellow {
+  color: hsl(39deg 97% 54%);
+}
+.textColorBlue {
+  color: hsl(190deg 100% 40%);
+}
+.textColorRed {
+  color: #f1535c;
+}
+.textColorWhite {
+  color: hsl(0deg 0% 100%);
+}
+.textColorBlack {
+  color: hsl(0deg 0% 20%);
 }

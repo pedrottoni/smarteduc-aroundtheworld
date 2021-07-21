@@ -10,7 +10,7 @@ export default function Menu(props) {
       <h5>Books</h5>
       <Accordion title="North america collection" color={Colors.smartPurple} textColor={Colors.smartYellow}>
         <Accordion title="unit 01 - Getting ready to travel aboard" className={true} textColor={Colors.smartPurple}>
-          <Link href="/book01/unit01/themedvocabulary">VOVABULARY - PASSPORT</Link>
+          <Link href="/book01/unit01/themedvocabulary">VOCABULARY - PASSPORT</Link>
           <Link href="/book01/unit01/grammar">GRAMMAR - WH QUESTIONS</Link>
           <Link href="/book01/unit01/themedspeaking">SPEAKING - PERSONAL INFORMATION</Link>
           <Link href="/book01/unit01/translate">TRANSLATE</Link>

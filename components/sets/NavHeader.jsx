@@ -16,7 +16,7 @@ export default function NavHeader(props) {
           <Image src="/images/logoWhite.svg" alt="Picture of the author" layout="responsive" width="790" height="263" />
         </Link>
       </div>
-      <Button text="menu" onClick={() => (modalMenu ? setModalMenuOpen(false) : setModalMenuOpen(true))} color={Colors.smartPurple} shadow={Colors.smartPurpleDark}></Button>
+      <Button text="menu" icon="menuIcon" onClick={() => (modalMenu ? setModalMenuOpen(false) : setModalMenuOpen(true))} color={Colors.smartWhite} shadow={Colors.smartPurpleDark} textColor={Colors.smartPurple} />
       {modalMenu ? (
         <Modal title="menu" color={Colors.smartPurple} shadow={Colors.smartPurpleDark} headerColor={Colors.smartYellow} onClick={() => (modalMenu ? setModalMenuOpen(false) : setModalMenuOpen(true))}>
           <Menu />
@@ -33,7 +33,7 @@ export default function NavHeader(props) {
           width: 100%;
           height: 10rem;
           padding: 1rem clamp(2rem, 4vw, 6rem);
-          z-index: 10;
+          z-index: 2;
         }
 
         header .logo {

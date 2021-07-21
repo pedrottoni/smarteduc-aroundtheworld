@@ -7,6 +7,6 @@ export const Colors = {
   smartYellowDark: "hsl(24deg 80% 40%)",
   smartRed: "#F1535C",
   smartRedDark: "#9F242D",
-  smartBlack: "hsl(0deg 0% 10%)",
+  smartBlack: "hsl(0deg 0% 20%)",
   smartWhite: "hsl(0deg 0% 100%)",
 }

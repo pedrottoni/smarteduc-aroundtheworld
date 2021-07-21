@@ -19,7 +19,7 @@ export default function Home() {
         <Image src="/images/coverLogo.svg" layout="fill" />
       </div>
 
-      <Button text="Start" onClick="" link="/books" color={Colors.smartPurple} shadow={Colors.smartPurpleDark} />
+      <Button text="Start" onClick="" link="/books" color={Colors.smartPurple} shadow={Colors.smartPurpleDark} textColor={Colors.smartWhite} />
 
       <style jsx>{`
         .coverLogo {
