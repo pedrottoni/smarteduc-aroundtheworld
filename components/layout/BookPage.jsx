@@ -1,11 +1,11 @@
 import PageHeader from "../sets/PageHeader";
-import NavHeader from "../sets/NavHeader"
+import NavHeader from "../sets/NavHeader";
 
 export default function BookPage(props) {
   return (
     <main>
       <NavHeader />
-      <PageHeader title={props.title} title2={props.title2} subtitle={props.subtitle} image={props.image}/>
+      <PageHeader title={props.title} title2={props.title2} subtitle={props.subtitle} image={props.image} />
       <section>{props.children}</section>
       <footer>
         <p>Footer</p>
@@ -45,7 +45,7 @@ export default function BookPage(props) {
         section .content.IIcol {
           grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr)) !important;
         }
-        
+
         section .content.IIIcol {
           grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)) !important;
         }

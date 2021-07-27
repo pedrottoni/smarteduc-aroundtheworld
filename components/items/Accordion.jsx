@@ -9,7 +9,7 @@ export default function Accordion(props) {
         <button className={props.className ? "subAccordion" : "accordionTitle"} onClick={() => (accordionOpen ? setAccordionState(false) : setAccordionState(true))}>
           {props.className ? <p>{props.title}</p> : <h6>{props.title}</h6>}
         </button>
-        {accordionOpen ? <div className="accordionContent">{props.children}</div> : null}
+        {accordionOpen ? <div className="accordionContent" onClick={props.onClick}>{props.children}</div> : null}
       </div>
       <style jsx>{`
         .accordion {

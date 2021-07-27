@@ -15,7 +15,7 @@ export default function TextField(props) {
 
         .textfield :global(.card) {
           display: grid;
-          grid-template-columns: repeat(auto-fill, minmax(30rem, 2fr));
+          grid-template-columns: repeat(auto-fill, minmax(24rem, 2fr));
           place-items: unset;
           gap: 2rem;
           transform: rotate(-0.5deg);

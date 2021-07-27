@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import { motion } from "framer-motion";
 import NavHeader from "../components/sets/NavHeader";
 import Button from "../components/items/Button";
 import { Colors } from "../components/items/Colors";
@@ -15,22 +16,24 @@ export default function Home() {
 
       <NavHeader />
 
-      <div className="coverLogo">
+      <motion.div className="coverLogo" animate={{ scale: [0, 1.2, 1, 1] }} exit={{ opacity: 0, scale: 0 }}>
         <Image src="/images/coverLogo.svg" layout="fill" />
-      </div>
+      </motion.div>
 
-      <Button text="Start" onClick="" link="/books" color={Colors.smartPurple} shadow={Colors.smartPurpleDark} textColor={Colors.smartWhite} />
+      <motion.div animate={{ scale: [1.2, 1, 1] }} exit={{ opacity: 0, scale: 0.9 }}>
+        <Button size="big" text="Start" onClick="" link="/books" color={Colors.smartPurple} shadow={Colors.smartPurpleDark} textColor={Colors.smartYellow} />
+      </motion.div>
 
-      <style jsx>{`
+      <style jsx>{``}</style>
+
+      <style jsx global>{`
         .coverLogo {
           position: relative;
           margin: 10rem auto;
           width: 100vw;
           height: 60rem;
         }
-      `}</style>
 
-      <style jsx global>{`
         #__next {
           display: flex;
           flex-direction: column;

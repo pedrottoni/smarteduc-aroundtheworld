@@ -9,14 +9,14 @@ export default function Menu(props) {
       <NavBreadcrumb />
       <h5>Books</h5>
       <Accordion title="North america collection" color={Colors.smartPurple} textColor={Colors.smartYellow}>
-        <Accordion title="unit 01 - Getting ready to travel aboard" className={true} textColor={Colors.smartPurple}>
-          <Link href="/book01/unit01/themedvocabulary">VOCABULARY - PASSPORT</Link>
+        <Accordion title="unit 01 - Getting ready to travel aboard" className={true} textColor={Colors.smartPurple} onClick={props.onClick}>
+          <Link href="/book01/unit01/themedvocabulary" >VOCABULARY - PASSPORT</Link>
           <Link href="/book01/unit01/grammar">GRAMMAR - WH QUESTIONS</Link>
           <Link href="/book01/unit01/themedspeaking">SPEAKING - PERSONAL INFORMATION</Link>
           <Link href="/book01/unit01/translate">TRANSLATE</Link>
           <Link href="/book01/unit01/dictation">DICTATION</Link>
           <Link href="/book01/unit01/specificvocabulary">VOVABULARY - PACKING A SUITCASE</Link>
-          <Link href="/book01/unit01/specificspeaking">SPEAKING - nomenomenome</Link>
+          <Link href="/book01/unit01/specificspeaking">SPEAKING - ALL ABOUT CLOTHES</Link>
           <Link href="/book01/unit01/steam">STEAM</Link>
           <Link href="/book01/unit01/smartskills">SMARTSKILLS - YOU ARE AMAZING!</Link>
         </Accordion>

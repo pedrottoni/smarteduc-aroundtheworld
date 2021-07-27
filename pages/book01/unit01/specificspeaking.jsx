@@ -8,7 +8,7 @@ export default function SpecificSpeaking(props) {
 
   return (
     <>
-      <BookPage title="speaking" subtitle="personal information" image="">
+      <BookPage title="speaking" subtitle="all about clothes" image="">
         <div className="content fullwidth">
           <Speaking avatar1={girl} rightText="What is this?" avatar2={boy} leftText="It is a t-shirt." image={true} cardImage="book01/unit01/t-shirt" cardColor={Colors.smartBlue} cardShadow={Colors.smartBlueDark} />
           <Speaking avatar1={girl} rightText="What is this?" avatar2={boy} leftText="It is a dress." image={true} cardImage="book01/unit01/dress" cardColor={Colors.smartBlue} cardShadow={Colors.smartBlueDark} />
