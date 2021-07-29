@@ -1,10 +1,11 @@
+import { motion } from "framer-motion";
 import Balloon from "../items/Balloon";
 import Image from "next/image";
 import Card from "./Card";
 
 export default function Speaking(props) {
   return (
-    <div className="speaking">
+    <motion.div className="speaking" initial={{ y: 1000, opacity: 0 }} animate={{ y: 0, opacity: 1 }} exit={{ opacity: 0, y: 500 }} transition={{ delay: props.delay}}>
       <div className="avatar avatar1">
         <Balloon text={props.rightText} color={props.avatar1.color} shadow={props.avatar1.shadow} image={props.avatar1.image} />
         {props.image ? (
@@ -23,7 +24,9 @@ export default function Speaking(props) {
         <Balloon text={props.leftText} color={props.avatar2.color} shadow={props.avatar2.shadow} image={props.avatar2.image} left="true" />
       </div>
 
-      <style jsx>{`
+      <style jsx>{``}</style>
+
+      <style jsx global>{`
         .speaking {
           display: grid;
           gap: 2rem;
@@ -85,9 +88,6 @@ export default function Speaking(props) {
         .speaking .avatar.avatar2 .image:after {
           background: ${props.avatar2.color};
         }
-      `}</style>
-
-      <style jsx global>{`
         .card {
           ${props.cardImage ? "height: 12rem !important; padding: 0rem !important" : null}
         }
@@ -95,6 +95,6 @@ export default function Speaking(props) {
           ${props.cardImage ? "max-width: 20rem; !important" : null}
         }
       `}</style>
-    </div>
+    </motion.div>
   );
 }

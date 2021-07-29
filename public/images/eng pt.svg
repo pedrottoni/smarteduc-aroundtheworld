@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 209 208">
+  <defs/>
+  <g id="Group">
+    <path id="Vector" fill="url(#paint0_linear)" d="M111.5 161.7c-2.5-1.8-6-2-8.8-.5a31.7 31.7 0 01-34.3-3.3l3.9-3.5a4.2 4.2 0 00-1.8-7.1l-24.6-6.5c-3-.8-5.8 1.8-5.2 4.8l4.3 24.8c.7 3.3 5 4.5 7.4 2.2l3.8-3.4a48.7 48.7 0 0054.5 6.6c5.5-2.9 6-10.6.8-14.1z"/>
+    <path id="Vector_2" fill="url(#paint1_linear)" d="M111.5 161.7c-2.5-1.8-6-2-8.7-.5a31.7 31.7 0 01-25.6 1.7l3.2 17.8a46.5 46.5 0 0030.3-4.9c5.5-2.9 6-10.6.8-14.1z"/>
+    <path id="Vector_3" fill="url(#paint2_linear)" d="M97.4 46.2c2.6 1.8 6 2 8.8.5a31.7 31.7 0 0134.3 3.3l-3.8 3.5a4.2 4.2 0 001.8 7.1l24.5 6.5c3 .8 5.9-1.8 5.3-4.8l-4.4-24.8c-.6-3.2-5-4.5-7.4-2.2l-3.7 3.4a48.7 48.7 0 00-54.5-6.6c-5.6 3-6 10.6-.9 14.1z"/>
+    <g id="Group_2">
+      <g id="Mask Group">
+        <mask id="mask0" width="127" height="126" x="82" y="69" mask-type="alpha" maskUnits="userSpaceOnUse">
+          <path id="Vector_4" fill="url(#paint3_linear)" d="M186.1 180l-62.5 11a22.7 22.7 0 01-26.3-18.3l-11-61.8A22.7 22.7 0 01105 84.7l62.5-11c12.4-2.2 24.2 6 26.3 18.3l11 61.8c2.1 12.2-6.2 24-18.6 26.1z"/>
+        </mask>
+        <g mask="url(#mask0)">
+          <g id="Group_3">
+            <path id="Union" fill="url(#paint4_radial)" d="M70.3 80c-2.5.4-4.1 2.8-3.7 5.2l20.9 118.4c.4 2.5 2.8 4 5.2 3.7l128-22.6c2.5-.4 4.1-2.8 3.7-5.2L203.5 61c-.4-2.5-2.8-4.1-5.2-3.7L70.3 80z"/>
+            <g id="Group 516">
+              <g id="Vector_5" filter="url(#filter0_d)">
+                <path fill="url(#paint5_linear)" d="M194.6 122.7l-52-20.3a4.5 4.5 0 00-4.6.8l-41.9 36.9c-.6.5-.4 1.6.3 1.9l52 20.3c1.6.6 3.3.3 4.6-.9l41.9-36.8c.6-.6.4-1.6-.3-1.9z"/>
+              </g>
+              <g id="Vector_6" filter="url(#filter1_d)">
+                <path fill="url(#paint6_linear)" d="M142.4 114.7a18 18 0 00-13.8 11.6l-1 4.7a18 18 0 0035.7 3.5v-4.8l-.1-.5a18 18 0 00-20.8-14.5z"/>
+              </g>
+              <path id="Vector_7" fill="#fff" d="M127.6 131c12.3-2.1 24.6-.9 35.7 3.5a18 18 0 000-4.8c-11-4-22.8-5.1-34.7-3.4-.5 1.5-.9 3-1 4.7z"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <path id="Vector_8" fill="url(#paint7_linear)" d="M202 138.9l2.6 14.9c2.2 12.2-6 24-18.5 26.1l-62.5 11a22.7 22.7 0 01-26.3-18.2l-11-61.8A22.7 22.7 0 01105 84.7l15-2.6 82.1 56.8z"/>
+    </g>
+    <g id="Group_4">
+      <mask id="mask1" width="127" height="127" x="0" y="12" mask-type="alpha" maskUnits="userSpaceOnUse">
+        <path id="Vector_9" fill="url(#paint8_linear)" d="M104 123.2l-62.4 11a22.7 22.7 0 01-26.4-18.3L4.3 54.1A22.7 22.7 0 0122.8 28l62.6-11c12.3-2.2 24.1 6 26.3 18.2l11 61.8c2 12.3-6.2 24-18.6 26.2z"/>
+      </mask>
+      <g mask="url(#mask1)">
+        <g id="Group_5">
+          <path id="Union_2" fill="url(#paint9_linear)" d="M56.2 22L130.6 9c3-.5 5.8 1.4 6.3 4.4l1.7 9.8-2.4 4.6 1.5 8.4 3.6 2.2 2.7 15.2-2.7 3.2 1.7 9.6 3.6 2.4 2.7 15.2-3 3.1 1.7 9.4 4 2.7 1.7 9.8c.6 3-1.4 5.8-4.3 6.3L-4.8 142.4c-2.9.5-5.7-1.5-6.2-4.4l-1.8-9.9 1.7-3.7-1.7-10-2.6-1.5-2.7-15.2 2.6-2-.4-2.4L56.2 22z"/>
+          <path id="Vector_10" fill="#F2F2F6" d="M56.3 37.6l82.3-14.5 2.7 15.2L59 52.8l-2.7-15.2z"/>
+          <path id="Vector_11" fill="#F2F2F6" d="M61.6 68l5.3 14.7 79.7-14-2.6-15.2L61.6 68z"/>
+          <path id="Union_3" fill="url(#paint10_linear)" d="M-27.9 42.3c-.5-3 1.5-5.7 4.4-6.2l79.7-14L67 82.6l-85 15-9.8-55.4z"/>
+          <path id="Vector_12" fill="#fff" d="M47.7 35.7c-1.5.3-2.9-.7-3.1-2.2-.3-1.4.7-2.8 2.1-3a2.7 2.7 0 111 5.2z"/>
+          <path id="Vector_13" fill="#fff" d="M51.4 57c-1.4.2-2.8-.7-3-2.2-.4-1.5.6-2.9 2-3.1h.1a2.7 2.7 0 111 5.3z"/>
+          <path id="Vector_14" fill="#fff" d="M55.2 78.2c-1.5.3-2.9-.7-3.1-2.1-.3-1.5.7-3 2.1-3.2a2.7 2.7 0 111 5.3z"/>
+          <g id="Group_6" fill="#F2F2F6">
+            <path id="Vector_15" d="M49.6 46.4c-1.5.2-3-.8-3.2-2.2-.2-1.5.7-2.9 2.2-3.2a2.7 2.7 0 111 5.4z"/>
+            <path id="Vector_16" d="M53.3 67.6c-1.5.3-2.9-.7-3.1-2.2-.3-1.4.7-2.8 2.2-3.1a2.7 2.7 0 111 5.3z"/>
+            <path id="Vector_17" d="M-.1 44.2c-1.5.2-3-.8-3.2-2.2-.2-1.5.7-2.9 2.2-3.1a2.7 2.7 0 111 5.3z"/>
+            <path id="Vector_18" d="M3.6 65.4c-1.5.3-2.9-.7-3.1-2.2-.3-1.4.7-2.8 2.1-3V60a2.7 2.7 0 111 5.3z"/>
+            <path id="Vector_19" d="M7.4 86.7c-1.5.2-3-.7-3.2-2.2-.2-1.5.7-2.9 2.2-3.1a2.7 2.7 0 111 5.3z"/>
+          </g>
+          <path id="Vector_20" fill="#fff" d="M1.7 54.8C.3 55-1 54-1.4 52.6c-.3-1.5.7-2.9 2.2-3.1a2.7 2.7 0 111 5.3z"/>
+          <path id="Vector_21" fill="#fff" d="M5.5 76c-1.5.3-2.9-.7-3.2-2.1-.2-1.5.8-2.9 2.2-3.2a2.7 2.7 0 111 5.3z"/>
+          <path id="Vector_22" fill="#F2F2F6" d="M-1.6 82.8c-1.4.2-2.8-.8-3-2.2-.3-1.5.6-2.9 2-3.1h.1a2.7 2.7 0 111 5.3z"/>
+          <path id="Vector_23" fill="#fff" d="M15.8 41.3c-1.5.3-2.9-.7-3.1-2.1-.3-1.5.7-2.9 2.1-3.2a2.7 2.7 0 111 5.3z"/>
+          <path id="Vector_24" fill="#fff" d="M19.6 62.6c-1.5.3-3-.7-3.2-2.2-.2-1.4.7-2.8 2.2-3.1a2.7 2.7 0 111 5.3z"/>
+          <path id="Vector_25" fill="#fff" d="M23.3 83.9c-1.5.2-2.9-.8-3.1-2.2-.3-1.5.7-2.9 2.1-3.1a2.7 2.7 0 111 5.3z"/>
+          <path id="Vector_26" fill="#F2F2F6" d="M17.7 52c-1.5.2-2.9-.7-3.2-2.2-.2-1.5.7-2.9 2.2-3.1a2.7 2.7 0 111 5.3z"/>
+          <path id="Vector_27" fill="#F2F2F6" d="M21.4 73.2c-1.4.3-2.9-.7-3.1-2.2-.3-1.4.7-2.8 2.2-3a2.7 2.7 0 111 5.2z"/>
+          <path id="Vector_28" fill="#F2F2F6" d="M8.8 48c-1.5.3-3-.7-3.2-2.1-.2-1.5.7-2.9 2.2-3.1a2.7 2.7 0 111 5.3z"/>
+          <path id="Vector_29" fill="#F2F2F6" d="M12.5 69.3c-1.4.3-2.9-.7-3.1-2.2-.3-1.4.7-2.8 2.2-3a2.7 2.7 0 111 5.2z"/>
+          <path id="Vector_30" fill="#fff" d="M10.6 58.7c-1.4.3-2.8-.7-3-2.2-.4-1.5.6-2.9 2-3.1h.1a2.7 2.7 0 111 5.3z"/>
+          <path id="Vector_31" fill="#fff" d="M14.4 80c-1.5.2-2.9-.8-3.1-2.2-.3-1.5.7-2.9 2.1-3.2a2.7 2.7 0 111 5.3z"/>
+          <path id="Vector_32" fill="#F2F2F6" d="M31.7 38.5c-1.4.3-2.9-.7-3.1-2.1-.3-1.5.7-3 2.2-3.2a2.7 2.7 0 111 5.3z"/>
+          <path id="Vector_33" fill="#F2F2F6" d="M35.5 59.8c-1.5.3-3-.7-3.2-2.2-.2-1.5.7-2.9 2.2-3.1a2.7 2.7 0 111 5.3z"/>
+          <path id="Vector_34" fill="#F2F2F6" d="M39.2 81c-1.4.3-2.9-.7-3.1-2.1-.3-1.5.7-2.9 2.2-3.2a2.7 2.7 0 111 5.4z"/>
+          <path id="Vector_35" fill="#fff" d="M33.6 49.2c-1.5.2-2.9-.7-3.1-2.2-.3-1.5.7-2.9 2.1-3.1a2.7 2.7 0 111 5.3z"/>
+          <path id="Vector_36" fill="#fff" d="M37.3 70.4c-1.4.3-2.8-.7-3-2.2-.3-1.4.6-2.8 2-3h.1a2.7 2.7 0 111 5.2z"/>
+          <path id="Vector_37" fill="#fff" d="M24.7 45.3c-1.5.2-2.9-.8-3.1-2.2-.3-1.5.7-2.9 2.1-3.2a2.7 2.7 0 111 5.4z"/>
+          <path id="Vector_38" fill="#fff" d="M28.4 66.5c-1.4.3-2.8-.7-3.1-2.2-.3-1.4.7-2.8 2.2-3v-.1a2.7 2.7 0 111 5.3z"/>
+          <path id="Vector_39" fill="#F2F2F6" d="M26.6 55.9c-1.5.2-3-.7-3.2-2.2-.2-1.5.7-2.9 2.2-3.1a2.7 2.7 0 111 5.3z"/>
+          <path id="Vector_40" fill="#F2F2F6" d="M30.3 77.1c-1.5.3-2.9-.7-3.1-2.1-.3-1.5.7-3 2.1-3.2a2.7 2.7 0 111 5.3z"/>
+          <path id="Vector_41" fill="#F2F2F6" d="M40.7 42.4c-1.5.3-3-.7-3.2-2.1-.2-1.5.7-3 2.2-3.2a2.7 2.7 0 111 5.3z"/>
+          <path id="Vector_42" fill="#F2F2F6" d="M44.4 63.7c-1.5.3-2.9-.7-3.1-2.2-.3-1.5.7-2.9 2.1-3.1a2.7 2.7 0 111 5.3z"/>
+          <path id="Vector_43" fill="#fff" d="M42.5 53c-1.4.3-2.8-.6-3.1-2.1-.3-1.5.7-2.9 2.2-3.1a2.7 2.7 0 111 5.3z"/>
+          <path id="Vector_44" fill="#fff" d="M46.3 74.3c-1.5.3-2.9-.7-3.2-2.2a2.7 2.7 0 113.1 2.2z"/>
+          <path id="Union_4" fill="#F2F2F6" d="M-12.8 128.1l-2.6-15.2 164.7-29L152 99l-164.8 29z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <defs>
+    <linearGradient id="paint0_linear" x1="45.6" x2="89.5" y1="144.1" y2="175.2" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5B92C"/>
+      <stop offset="1" stop-color="#FCA406"/>
+    </linearGradient>
+    <linearGradient id="paint1_linear" x1="82.5" x2="98" y1="172.5" y2="169.8" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EDA71B" stop-opacity="0"/>
+      <stop offset="1" stop-color="orange"/>
+    </linearGradient>
+    <linearGradient id="paint2_linear" x1="117.8" x2="164.5" y1="32.3" y2="65.4" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#641E4E"/>
+      <stop offset=".6" stop-color="#8E2B6E"/>
+    </linearGradient>
+    <linearGradient id="paint3_linear" x1="99.1" x2="190.1" y1="100.2" y2="164.7" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#76CCF8"/>
+      <stop offset=".8" stop-color="#518EF8"/>
+      <stop offset="1" stop-color="#4981F8"/>
+    </linearGradient>
+    <linearGradient id="paint5_linear" x1="134.2" x2="129.2" y1="111.8" y2="159.4" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFDA44"/>
+      <stop offset="1" stop-color="#FFA70F"/>
+    </linearGradient>
+    <linearGradient id="paint6_linear" x1="147" x2="138.9" y1="115.7" y2="149.8" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0069E6"/>
+      <stop offset="1" stop-color="#003370"/>
+    </linearGradient>
+    <linearGradient id="paint7_linear" x1="154.1" x2="51.9" y1="162.9" y2="90.5" gradientUnits="userSpaceOnUse">
+      <stop stop-opacity="0"/>
+      <stop offset="1" stop-opacity=".2"/>
+    </linearGradient>
+    <linearGradient id="paint8_linear" x1="17.1" x2="108.1" y1="43.5" y2="107.9" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EEF4FF"/>
+      <stop offset="1" stop-color="#CFE7FD"/>
+    </linearGradient>
+    <linearGradient id="paint9_linear" x1="8.8" x2="-10.9" y1="75.9" y2="138.5" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D80027"/>
+      <stop offset="1" stop-color="#870019"/>
+    </linearGradient>
+    <linearGradient id="paint10_linear" x1="13.7" x2="-19.7" y1="29.5" y2="73.9" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0052B4"/>
+      <stop offset="1" stop-color="#003677"/>
+    </linearGradient>
+    <filter id="filter0_d" width="122.2" height="89.9" x="84.4" y="88.4" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" result="hardAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+      <feOffset dy="1"/>
+      <feGaussianBlur stdDeviation="3"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+      <feBlend in2="BackgroundImageFix" mode="normal" result="effect1_dropShadow"/>
+      <feBlend in="SourceGraphic" in2="effect1_dropShadow" mode="normal" result="shape"/>
+    </filter>
+    <filter id="filter1_d" width="53.6" height="53.6" x="118.7" y="106.6" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" result="hardAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+      <feOffset dy="1"/>
+      <feGaussianBlur stdDeviation="3"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.24 0"/>
+      <feBlend in2="BackgroundImageFix" mode="normal" result="effect1_dropShadow"/>
+      <feBlend in="SourceGraphic" in2="effect1_dropShadow" mode="normal" result="shape"/>
+    </filter>
+    <radialGradient id="paint4_radial" cx="0" cy="0" r="1" gradientTransform="matrix(-57.22257 100.06603 -155.10357 -88.69569 165.6 77.4)" gradientUnits="userSpaceOnUse">
+      <stop offset=".5" stop-color="#62943D"/>
+      <stop offset="1" stop-color="#3C6A1B"/>
+    </radialGradient>
+  </defs>
+</svg>

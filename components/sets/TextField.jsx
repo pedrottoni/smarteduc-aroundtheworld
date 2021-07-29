@@ -1,19 +1,16 @@
+import { motion } from "framer-motion";
 import Card from "./Card";
 
 export default function TextField(props) {
   return (
-    <div className="textfield">
+    <motion.div className="textfield" initial={{ y: 1000, opacity: 0 }} animate={{ y: 0, opacity: 1 }} exit={{ opacity: 0, y: 1000 }} transition={{ delay: props.delay }}>
       <Card imageTitle={props.imageTitle} title={props.title} color={props.color} shadow={props.shadow} fundo={true}>
         {props.children}
       </Card>
 
-      <style jsx>{`
-        .textfield {
-          display: flex;
-          place-content: center;
-        }
-
-        .textfield :global(.card) {
+      <style jsx>{``}</style>
+      <style jsx global>{`
+        .textfield .card {
           display: grid;
           grid-template-columns: repeat(auto-fill, minmax(24rem, 2fr));
           place-items: unset;
@@ -22,19 +19,23 @@ export default function TextField(props) {
           padding: ${props.label ? "6rem 2.5rem 1rem" : "2.5rem"};
         }
 
-        .textfield :global(.cardFundo) {
+        .textfield {
+          display: flex;
+          place-content: center;
+        }
+
+        .textfield .cardFundo {
           transform: rotate(0.5deg);
         }
 
-        .textfield :global(.cardFundo:hover) {
+        .textfield .cardFundo:hover {
           transform: scale(1.02);
         }
 
-        .textfield :global(div) {
+        .textfield div {
           text-align: left;
         }
-      `}</style>
-      <style jsx global>{`
+
         input {
           position: relative;
           background: transparent;
@@ -46,7 +47,7 @@ export default function TextField(props) {
           color: hsl(0deg 0% 10%);
           border-bottom: 1px solid #bbb;
           padding: 0;
-          width: -webkit-fill-available
+          width: -webkit-fill-available;
         }
 
         input:focus-visible {
@@ -62,6 +63,6 @@ export default function TextField(props) {
           margin-bottom: 1rem;
         }
       `}</style>
-    </div>
+    </motion.div>
   );
 }

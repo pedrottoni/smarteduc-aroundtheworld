@@ -5,7 +5,7 @@ export default function Modal(props) {
   return (
     <div className="modal">
       <motion.div className="backDrop" onClick={props.onClick} initial={{ opacity: 0 }} animate={{ opacity: [0, 1] }} exit={{ opacity: 0 }} />
-      <motion.div className="modalFundo" initial={{ opacity: 0, scale: 0.2 }} animate={{ opacity: 1, scale: 1 }} exit={{ opacity: 0, scale: 0.2 }} transition={{duration: 0.1}}>
+      <motion.div className="modalFundo" initial={{ opacity: 0, scale: 0.2 }} animate={{ opacity: 1, scale: 1}} exit={{ opacity: 0, scale: 0.2 }} transition={{duration: 0.1}}>
         <div className="modalCard">
           <header>
             {props.image ? (

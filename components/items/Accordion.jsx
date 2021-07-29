@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 
 export default function Accordion(props) {
   const [accordionOpen, setAccordionState] = useState(false);
@@ -9,7 +10,25 @@ export default function Accordion(props) {
         <button className={props.className ? "subAccordion" : "accordionTitle"} onClick={() => (accordionOpen ? setAccordionState(false) : setAccordionState(true))}>
           {props.className ? <p>{props.title}</p> : <h6>{props.title}</h6>}
         </button>
-        {accordionOpen ? <div className="accordionContent" onClick={props.onClick}>{props.children}</div> : null}
+        <AnimatePresence initial={false}>
+          {accordionOpen ? (
+            <motion.div
+              className="accordionContent"
+              onClick={props.onClick}
+              key="content"
+              initial="collapsed"
+              animate="open"
+              exit="collapsed"
+              variants={{
+                open: { opacity: 1, height: "auto" },
+                collapsed: { opacity: 0, height: 0 },
+              }}
+              transition={{ duration: 0.8, ease: [0.04, 0.62, 0.23, 0.98] }}
+            >
+              {props.children}
+            </motion.div>
+          ) : null}
+        </AnimatePresence>
       </div>
       <style jsx>{`
         .accordion {
@@ -35,7 +54,8 @@ export default function Accordion(props) {
           border-radius: 1rem;
           cursor: pointer;
         }
-
+      `}</style>
+      <style jsx global>{`
         .accordionContent {
           display: flex;
           flex-direction: column;
