@@ -10,7 +10,7 @@ export default function PageHeader(props) {
           {props.subtitle ? <h4>{props.subtitle}</h4> : null}
         </div>
         <div className="pageimage">
-          <Image src={"/images/" + props.image + (props.title.indexOf(" ") ? props.title.replace(" ","") : props.title) + ".svg"} alt={props.title + " " + (props.title2 ? props.title2 : null) + " " + (props.subtitle ? props.subtitle : "")} layout="fill" />
+          <Image src={"/images/" + props.image +  props.title + ".svg"} alt={props.title + " " + (props.title2 ? props.title2 : null) + " " + (props.subtitle ? props.subtitle : "")} layout="fill" />
         </div>
       </div>
 

@@ -1,9 +1,11 @@
+import { motion } from "framer-motion";
+
 export default function WordBlock(props) {
   return (
-    <div className="wordblock">
+    <motion.div className="wordblock" variants={props.variants}>
       <p>{props.text}</p>
 
-      <style jsx>{`
+      <style jsx global>{`
         .wordblock {
           width: fit-content;
           background: ${props.color};
@@ -19,8 +21,6 @@ export default function WordBlock(props) {
           transform: perspective(100rem) rotateY(-20deg);
         }
       `}</style>
-
-      <style jsx global>{``}</style>
-    </div>
+    </motion.div>
   );
 }

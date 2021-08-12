@@ -19,7 +19,7 @@ export default function NavHeader(props) {
       </motion.div>
 
       <motion.div animate={{ x: [500, 0] }} exit={{ opacity: 0, x: 500 }}>
-        <Button text="menu" icon="menuIcon" onClick={() => (modalMenu ? setModalMenuOpen(false) : setModalMenuOpen(true))} color={Colors.smartWhite} shadow={Colors.smartPurpleDark} textColor={Colors.smartPurple} />
+        <Button text="menu" icon="icon menu" onClick={() => (modalMenu ? setModalMenuOpen(false) : setModalMenuOpen(true))} color={Colors.smartWhite} shadow={Colors.smartPurpleDark} textColor={Colors.smartPurple} />
       </motion.div>
 
       <AnimatePresence initial={false}>

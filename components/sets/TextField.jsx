@@ -3,19 +3,19 @@ import Card from "./Card";
 
 export default function TextField(props) {
   return (
-    <motion.div className="textfield" initial={{ y: 1000, opacity: 0 }} animate={{ y: 0, opacity: 1 }} exit={{ opacity: 0, y: 1000 }} transition={{ delay: props.delay }}>
-      <Card imageTitle={props.imageTitle} title={props.title} color={props.color} shadow={props.shadow} fundo={true}>
+    <div className="textfield">
+      <Card imageTitle={props.imageTitle} title={props.title} color={props.color} shadow={props.shadow} fundo={true} variants={props.variants}>
         {props.children}
       </Card>
 
       <style jsx>{``}</style>
       <style jsx global>{`
         .textfield .card {
-          display: grid;
-          grid-template-columns: repeat(auto-fill, minmax(24rem, 2fr));
+          display: grid !important;
+          grid-template-columns: repeat(auto-fill, minmax(24rem, 2fr)) !important;
           place-items: unset;
           gap: 2rem;
-          transform: rotate(-0.5deg);
+          transform: rotate(-0.5deg) !important;
           padding: ${props.label ? "6rem 2.5rem 1rem" : "2.5rem"};
         }
 
@@ -25,15 +25,19 @@ export default function TextField(props) {
         }
 
         .textfield .cardFundo {
-          transform: rotate(0.5deg);
-        }
-
-        .textfield .cardFundo:hover {
-          transform: scale(1.02);
+          transform: rotate(0.5deg) !important;
         }
 
         .textfield div {
           text-align: left;
+        }
+
+        .textfield .innerTitle {
+          grid-column: span 2;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
         }
 
         input {
@@ -53,16 +57,7 @@ export default function TextField(props) {
         input:focus-visible {
           outline: hsl(319deg 55% 35%) auto 1px;
         }
-
-        label {
-          position: relative;
-          left: 0;
-          top: -6rem;
-          font-weight: 700;
-          color: hsl(319deg 55% 35%);
-          margin-bottom: 1rem;
-        }
       `}</style>
-    </motion.div>
+    </div>
   );
 }

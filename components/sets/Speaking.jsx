@@ -5,7 +5,7 @@ import Card from "./Card";
 
 export default function Speaking(props) {
   return (
-    <motion.div className="speaking" initial={{ y: 1000, opacity: 0 }} animate={{ y: 0, opacity: 1 }} exit={{ opacity: 0, y: 500 }} transition={{ delay: props.delay}}>
+    <motion.div className="speaking" initial={{ y: 1000, opacity: 0 }} animate={{ y: 0, opacity: 1 }} exit={{ opacity: 0, y: 500 }} variants={props.variants}>
       <div className="avatar avatar1">
         <Balloon text={props.rightText} color={props.avatar1.color} shadow={props.avatar1.shadow} image={props.avatar1.image} />
         {props.image ? (

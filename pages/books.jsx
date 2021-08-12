@@ -9,35 +9,36 @@ import { Colors } from "../components/items/Colors";
 
 export default function Books() {
   const [modalBook1, setModalBook1Open] = useState(false);
-  const variants = {
-    initial: { opacity: 0, scale: 0.2 },
-    animate: { opacity: 1, scale: 1 },
-    exit: { opacity: 0, scale: 0.2 },
+  const list = { show: { transition: { staggerChildren: 0.05 } }, exit: { transition: { staggerChildren: 0.05 } } };
+  const item = {
+    hidden: { scale: 0, opacity: 0, y: 300 },
+    show: { scale: 1, opacity: 1, y: 0 },
+    exit: { scale: 0, opacity: 0, y: 300 },
   };
 
   return (
     <>
-      <BookPage title="books" subtitle="Loren ipsum dolor sit amet, consectetur adipiscing elit" image="">
-        <div className="content IIIcol">
-          <motion.div className="cover" initial="initial" animate="animate" exit="exit" transition={{ delay: 0 }} variants={variants}>
-            <Image src="/images/north america collection.svg" layout="fill" onClick={() => (modalBook1 ? setModalBook1Open(false) : setModalBook1Open(true))} />
+      <BookPage title="books" subtitle="Loren ipsum dolor sit amet, consectetur adipiscing elit" image="" initial="hidden" animate="show" exit="exit" variants={list}>
+        <motion.div className="content IIIcol" variants={list} initial="hidden" animate="show" exit="exit">
+          <motion.div className="cover" variants={item}>
+            <Image src="/images/north america collection.svg" layout="fill" alt="Smart Educ Around the World North America Collection" onClick={() => (modalBook1 ? setModalBook1Open(false) : setModalBook1Open(true))} />
           </motion.div>
-          <motion.div className="cover coverNone" initial="initial" animate="animate" exit="exit" transition={{ delay: .1 }} variants={variants}>
-            <Image src="/images/coverNone.svg" layout="fill" />
+          <motion.div className="cover coverNone" variants={item}>
+            <Image src="/images/coverNone.svg" alt="Smart Educ Around the World " layout="fill" />
           </motion.div>
-          <motion.div className="cover coverNone" initial="initial" animate="animate" exit="exit" transition={{ delay: .15 }} variants={variants}>
-            <Image src="/images/coverNone.svg" layout="fill" />
+          <motion.div className="cover coverNone" variants={item}>
+            <Image src="/images/coverNone.svg" alt="Smart Educ Around the World " layout="fill" />
           </motion.div>
-          <motion.div className="cover coverNone" initial="initial" animate="animate" exit="exit" transition={{ delay: .2 }} variants={variants}>
-            <Image src="/images/coverNone.svg" layout="fill" />
+          <motion.div className="cover coverNone" variants={item}>
+            <Image src="/images/coverNone.svg" alt="Smart Educ Around the World " layout="fill" />
           </motion.div>
-          <motion.div className="cover coverNone" initial="initial" animate="animate" exit="exit" transition={{ delay: .25 }} variants={variants}>
-            <Image src="/images/coverNone.svg" layout="fill" />
+          <motion.div className="cover coverNone" variants={item}>
+            <Image src="/images/coverNone.svg" alt="Smart Educ Around the World " layout="fill" />
           </motion.div>
-          <motion.div className="cover coverNone" initial="initial" animate="animate" exit="exit" transition={{ delay: .3 }} variants={variants}>
-            <Image src="/images/coverNone.svg" layout="fill" />
+          <motion.div className="cover coverNone" variants={item}>
+            <Image src="/images/coverNone.svg" alt="Smart Educ Around the World " layout="fill" />
           </motion.div>
-        </div>
+        </motion.div>
         <AnimatePresence initial={false}>
           {modalBook1 ? (
             <Modal image="coverLogoBook01" color={Colors.smartBlue} shadow={Colors.smartBlueDark} onClick={() => (modalBook1 ? setModalBook1Open(false) : setModalBook1Open(true))}>

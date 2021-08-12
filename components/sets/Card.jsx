@@ -1,12 +1,13 @@
+import { motion } from "framer-motion";
 import Image from "next/image";
 
 export default function Card(props) {
   return (
-    <>
+    <motion.div className="cardAnimation" variants={props.variants}>
       <div className="cardFundo">
         {props.imageTitle ? (
           <div className="imageTitle">
-            <Image src={props.imageTitle} alt={props.subtitleTop ? props.subtitleTop : props.subtitleBottom} layout="fill" />{" "}
+            <Image src={props.imageTitle} alt={props.subtitleTop ? props.subtitleTop : props.subtitleBottom} layout="fill" />
           </div>
         ) : null}
         {props.title ? <h6 className="cardTitle">{props.title}</h6> : null}
@@ -30,13 +31,6 @@ export default function Card(props) {
           margin-top: 1rem;
         }
 
-        .imageTitle {
-          width: 8rem;
-          height: 8rem;
-          margin-top: 1rem;
-          position: relative;
-          place-self: center;
-        }
         .cardTitle {
           color: #fff;
           margin-bottom: 1rem;
@@ -61,22 +55,11 @@ export default function Card(props) {
         .cardFundo {
           display: flex;
           flex-direction: column;
+          padding: 0.8rem;
           background: ${props.color};
           box-shadow: 0.6rem 0.6rem ${props.shadow};
-          padding: 0.8rem;
-          width: 100%;
-          min-width: 16rem;
-          height: fit-content;
-          transform: rotate(1.5deg);
           border-radius: 3rem;
-          place-self: center;
-          transition: 0.4s;
-        }
-
-        .cardFundo:hover {
-          transform: scale(1.02);
-          z-index: 1;
-          filter: drop-shadow(0px 7px 50px hsl(0deg 0% 0% / 30%));
+          transform: rotate(1.5deg);
         }
 
         .cardImage {
@@ -88,7 +71,22 @@ export default function Card(props) {
           filter: drop-shadow(0px 5px 5px hsl(0deg 0% 0% / 10%));
         }
       `}</style>
-      <style jsx global>{``}</style>
-    </>
+      <style jsx global>{`
+        .imageTitle {
+          width: 8rem;
+          height: 8rem;
+          margin-top: 1rem;
+          position: relative;
+          place-self: center;
+        }
+
+        .cardAnimation {
+          width: 100%;
+          min-width: 16rem;
+          height: fit-content;
+          place-self: center;
+        }
+      `}</style>
+    </motion.div>
   );
 }
